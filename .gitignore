@@ -1,4 +1,6 @@
 /src/main/java/payroll
+/arusql.session.sql
+/src/main/resources/application.properties
 HELP.md
 .gradle
 build/
