@@ -1,42 +1,43 @@
-package fe3h;
+package com.fe3h;
 
 import java.util.Objects;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 
 @Entity
 class Unit {
-  private @Id @GeneratedValue long id;
-  private String firstName;
+  private @Id @GeneratedValue(strategy=GenerationType.AUTO) Integer id;
+  private String name;
   private String house;
 
   Unit() {}
 
-  Unit(String firstName, String house) {
-    this.firstName = firstName;
+  Unit(String name, String house) {
+    this.name = name;
     this.house = house;
   }
 
-  public Long getId() {
+  public Integer getId() {
     return this.id;
   }
 
   public String getName() {
-    return this.firstName;
+    return this.name;
   }
 
   public String getHouse() {
     return this.house;
   }
 
-  public void setId(Long id) {
+  public void setId(Integer id) {
     this.id = id;
   }
 
-  public void setName(String firstName) {
-    this.firstName = firstName;
+  public void setName(String name) {
+    this.name = name;
   }
 
   public void setHouse(String house) {
@@ -52,16 +53,16 @@ class Unit {
       return false;
     }
     Unit unit = (Unit) o;
-    return Objects.equals(this.id, unit.id) && Objects.equals(this.firstName, unit.firstName) && Objects.equals(this.house, unit.house);
+    return Objects.equals(this.id, unit.id) && Objects.equals(this.name, unit.name) && Objects.equals(this.house, unit.house);
   }
 
   @Override
   public int hashCode() {
-    return Objects.hash(this.id, this.firstName, this.house);
+    return Objects.hash(this.id, this.name, this.house);
   }
 
   @Override
   public String toString() {
-    return "Unit{" + "id=" + this.id + ", firstName='" + this.firstName + "', house='" + this.house + "'}";
+    return "Unit{" + "id=" + this.id + ", name='" + this.name + "', house='" + this.house + "'}";
   }
 }
