@@ -9,7 +9,8 @@ import jakarta.persistence.Id;
 
 @Entity
 class Unit {
-  private @Id @GeneratedValue(strategy=GenerationType.AUTO) Integer id;
+  @Id @GeneratedValue(strategy=GenerationType.AUTO)
+  private int id;
   private String name;
   private String house;
 
@@ -20,7 +21,7 @@ class Unit {
     this.house = house;
   }
 
-  public Integer getId() {
+  public int getId() {
     return this.id;
   }
 
@@ -32,7 +33,7 @@ class Unit {
     return this.house;
   }
 
-  public void setId(Integer id) {
+  public void setId(int id) {
     this.id = id;
   }
 
