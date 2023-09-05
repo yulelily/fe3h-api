@@ -35,8 +35,8 @@ public class Fe3hApiController {
   }
 
   @GetMapping(path="/unit/{id}")
-  public Optional<Unit> index(@PathVariable String id) {
+  public @ResponseBody List<Object[]> index(@PathVariable String id) {
     int unitId = Integer.parseInt(id);
-    return unitRepository.findById(unitId);
+    return unitRepository.indexOne(unitId);
   }
 }
