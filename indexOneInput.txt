@@ -1,0 +1,30 @@
+{
+   "baseStats" : {
+      "baseCha" : "8",
+      "baseDef" : "6",
+      "baseDex" : "8",
+      "baseHp" : "26",
+      "baseLck" : "7",
+      "baseMag" : "5",
+      "baseRes" : "4",
+      "baseSpd" : "8",
+      "baseStr" : "11"
+   },
+   "birthday" : "7/24",
+   "firstCrest" : "Minor Crest of Riegan",
+   "fullName" : "Claude von Riegan",
+   "growthRates" : {
+      "growthRateCha" : "55",
+      "growthRateDef" : "30",
+      "growthRateDex" : "60",
+      "growthRateHp" : "35",
+      "growthRateLck" : "45",
+      "growthRateMag" : "25",
+      "growthRateRes" : "25",
+      "growthRateSpd" : "55",
+      "growthRateStr" : "40"
+   },
+   "house" : "Golden Deer",
+   "name" : "Claude",
+   "secondCrest" : "None"
+}

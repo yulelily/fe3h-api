@@ -1,0 +1,1202 @@
+[
+   {
+      "baseStats" : {
+         "baseCha" : "8",
+         "baseDef" : "6",
+         "baseDex" : "8",
+         "baseHp" : "26",
+         "baseLck" : "7",
+         "baseMag" : "5",
+         "baseRes" : "4",
+         "baseSpd" : "8",
+         "baseStr" : "11"
+      },
+      "birthday" : "7/24",
+      "firstCrest" : "Minor Crest of Riegan",
+      "fullName" : "Claude von Riegan",
+      "growthRates" : {
+         "growthRateCha" : "55",
+         "growthRateDef" : "30",
+         "growthRateDex" : "60",
+         "growthRateHp" : "35",
+         "growthRateLck" : "45",
+         "growthRateMag" : "25",
+         "growthRateRes" : "25",
+         "growthRateSpd" : "55",
+         "growthRateStr" : "40"
+      },
+      "house" : "Golden Deer",
+      "name" : "Claude",
+      "secondCrest" : "None"
+   },
+   {
+      "baseStats" : {
+         "baseCha" : "null",
+         "baseDef" : "null",
+         "baseDex" : "null",
+         "baseHp" : "null",
+         "baseLck" : "null",
+         "baseMag" : "null",
+         "baseRes" : "null",
+         "baseSpd" : "null",
+         "baseStr" : "null"
+      },
+      "birthday" : "2/3",
+      "firstCrest" : "Minor Crest of Goneril",
+      "fullName" : "Hilda Valentine Goneril",
+      "growthRates" : {
+         "growthRateCha" : "null",
+         "growthRateDef" : "null",
+         "growthRateDex" : "null",
+         "growthRateHp" : "null",
+         "growthRateLck" : "null",
+         "growthRateMag" : "null",
+         "growthRateRes" : "null",
+         "growthRateSpd" : "null",
+         "growthRateStr" : "null"
+      },
+      "house" : "Golden Deer",
+      "name" : "Hilda",
+      "secondCrest" : "None"
+   },
+   {
+      "baseStats" : {
+         "baseCha" : "null",
+         "baseDef" : "null",
+         "baseDex" : "null",
+         "baseHp" : "null",
+         "baseLck" : "null",
+         "baseMag" : "null",
+         "baseRes" : "null",
+         "baseSpd" : "null",
+         "baseStr" : "null"
+      },
+      "birthday" : "6/13",
+      "firstCrest" : "Minor Crest of Gloucester",
+      "fullName" : "Lorenz Hellman Gloucester",
+      "growthRates" : {
+         "growthRateCha" : "null",
+         "growthRateDef" : "null",
+         "growthRateDex" : "null",
+         "growthRateHp" : "null",
+         "growthRateLck" : "null",
+         "growthRateMag" : "null",
+         "growthRateRes" : "null",
+         "growthRateSpd" : "null",
+         "growthRateStr" : "null"
+      },
+      "house" : "Golden Deer",
+      "name" : "Lorenz",
+      "secondCrest" : "None"
+   },
+   {
+      "baseStats" : {
+         "baseCha" : "null",
+         "baseDef" : "null",
+         "baseDex" : "null",
+         "baseHp" : "null",
+         "baseLck" : "null",
+         "baseMag" : "null",
+         "baseRes" : "null",
+         "baseSpd" : "null",
+         "baseStr" : "null"
+      },
+      "birthday" : "5/18",
+      "firstCrest" : "None",
+      "fullName" : "Raphael Kirsten",
+      "growthRates" : {
+         "growthRateCha" : "null",
+         "growthRateDef" : "null",
+         "growthRateDex" : "null",
+         "growthRateHp" : "null",
+         "growthRateLck" : "null",
+         "growthRateMag" : "null",
+         "growthRateRes" : "null",
+         "growthRateSpd" : "null",
+         "growthRateStr" : "null"
+      },
+      "house" : "Golden Deer",
+      "name" : "Raphael",
+      "secondCrest" : "None"
+   },
+   {
+      "baseStats" : {
+         "baseCha" : "null",
+         "baseDef" : "null",
+         "baseDex" : "null",
+         "baseHp" : "null",
+         "baseLck" : "null",
+         "baseMag" : "null",
+         "baseRes" : "null",
+         "baseSpd" : "null",
+         "baseStr" : "null"
+      },
+      "birthday" : "3/14",
+      "firstCrest" : "None",
+      "fullName" : "Ignatz Victor",
+      "growthRates" : {
+         "growthRateCha" : "null",
+         "growthRateDef" : "null",
+         "growthRateDex" : "null",
+         "growthRateHp" : "null",
+         "growthRateLck" : "null",
+         "growthRateMag" : "null",
+         "growthRateRes" : "null",
+         "growthRateSpd" : "null",
+         "growthRateStr" : "null"
+      },
+      "house" : "Golden Deer",
+      "name" : "Ignatz",
+      "secondCrest" : "None"
+   },
+   {
+      "baseStats" : {
+         "baseCha" : "null",
+         "baseDef" : "null",
+         "baseDex" : "null",
+         "baseHp" : "null",
+         "baseLck" : "null",
+         "baseMag" : "null",
+         "baseRes" : "null",
+         "baseSpd" : "null",
+         "baseStr" : "null"
+      },
+      "birthday" : "2/28",
+      "firstCrest" : "Minor Crest of Charon",
+      "fullName" : "Lysithea von Ordelia",
+      "growthRates" : {
+         "growthRateCha" : "null",
+         "growthRateDef" : "null",
+         "growthRateDex" : "null",
+         "growthRateHp" : "null",
+         "growthRateLck" : "null",
+         "growthRateMag" : "null",
+         "growthRateRes" : "null",
+         "growthRateSpd" : "null",
+         "growthRateStr" : "null"
+      },
+      "house" : "Golden Deer",
+      "name" : "Lysithea",
+      "secondCrest" : "Major Crest of Gloucester"
+   },
+   {
+      "baseStats" : {
+         "baseCha" : "null",
+         "baseDef" : "null",
+         "baseDex" : "null",
+         "baseHp" : "null",
+         "baseLck" : "null",
+         "baseMag" : "null",
+         "baseRes" : "null",
+         "baseSpd" : "null",
+         "baseStr" : "null"
+      },
+      "birthday" : "11/23",
+      "firstCrest" : "Minor Crest of the Beast",
+      "fullName" : "Marianne von Edmund",
+      "growthRates" : {
+         "growthRateCha" : "null",
+         "growthRateDef" : "null",
+         "growthRateDex" : "null",
+         "growthRateHp" : "null",
+         "growthRateLck" : "null",
+         "growthRateMag" : "null",
+         "growthRateRes" : "null",
+         "growthRateSpd" : "null",
+         "growthRateStr" : "null"
+      },
+      "house" : "Golden Deer",
+      "name" : "Marianne",
+      "secondCrest" : "None"
+   },
+   {
+      "baseStats" : {
+         "baseCha" : "null",
+         "baseDef" : "null",
+         "baseDex" : "null",
+         "baseHp" : "null",
+         "baseLck" : "null",
+         "baseMag" : "null",
+         "baseRes" : "null",
+         "baseSpd" : "null",
+         "baseStr" : "null"
+      },
+      "birthday" : "8/21",
+      "firstCrest" : "None",
+      "fullName" : "Leonie Pinelli",
+      "growthRates" : {
+         "growthRateCha" : "null",
+         "growthRateDef" : "null",
+         "growthRateDex" : "null",
+         "growthRateHp" : "null",
+         "growthRateLck" : "null",
+         "growthRateMag" : "null",
+         "growthRateRes" : "null",
+         "growthRateSpd" : "null",
+         "growthRateStr" : "null"
+      },
+      "house" : "Golden Deer",
+      "name" : "Leonie",
+      "secondCrest" : "None"
+   },
+   {
+      "baseStats" : {
+         "baseCha" : "null",
+         "baseDef" : "null",
+         "baseDex" : "null",
+         "baseHp" : "null",
+         "baseLck" : "null",
+         "baseMag" : "null",
+         "baseRes" : "null",
+         "baseSpd" : "null",
+         "baseStr" : "null"
+      },
+      "birthday" : "12/20",
+      "firstCrest" : "Minor Crest of Blaiddyd",
+      "fullName" : "Dimitri Alexandre Blaiddyd",
+      "growthRates" : {
+         "growthRateCha" : "null",
+         "growthRateDef" : "null",
+         "growthRateDex" : "null",
+         "growthRateHp" : "null",
+         "growthRateLck" : "null",
+         "growthRateMag" : "null",
+         "growthRateRes" : "null",
+         "growthRateSpd" : "null",
+         "growthRateStr" : "null"
+      },
+      "house" : "Blue Lions",
+      "name" : "Dimitri",
+      "secondCrest" : "None"
+   },
+   {
+      "baseStats" : {
+         "baseCha" : "null",
+         "baseDef" : "null",
+         "baseDex" : "null",
+         "baseHp" : "null",
+         "baseLck" : "null",
+         "baseMag" : "null",
+         "baseRes" : "null",
+         "baseSpd" : "null",
+         "baseStr" : "null"
+      },
+      "birthday" : "8/31",
+      "firstCrest" : "None",
+      "fullName" : "Dedue Molinaro",
+      "growthRates" : {
+         "growthRateCha" : "null",
+         "growthRateDef" : "null",
+         "growthRateDex" : "null",
+         "growthRateHp" : "null",
+         "growthRateLck" : "null",
+         "growthRateMag" : "null",
+         "growthRateRes" : "null",
+         "growthRateSpd" : "null",
+         "growthRateStr" : "null"
+      },
+      "house" : "Blue Lions",
+      "name" : "Dedue",
+      "secondCrest" : "None"
+   },
+   {
+      "baseStats" : {
+         "baseCha" : "null",
+         "baseDef" : "null",
+         "baseDex" : "null",
+         "baseHp" : "null",
+         "baseLck" : "null",
+         "baseMag" : "null",
+         "baseRes" : "null",
+         "baseSpd" : "null",
+         "baseStr" : "null"
+      },
+      "birthday" : "2/20",
+      "firstCrest" : "Major Crest of Fraldarius",
+      "fullName" : "Felix Hugo Fraldarius",
+      "growthRates" : {
+         "growthRateCha" : "null",
+         "growthRateDef" : "null",
+         "growthRateDex" : "null",
+         "growthRateHp" : "null",
+         "growthRateLck" : "null",
+         "growthRateMag" : "null",
+         "growthRateRes" : "null",
+         "growthRateSpd" : "null",
+         "growthRateStr" : "null"
+      },
+      "house" : "Blue Lions",
+      "name" : "Felix",
+      "secondCrest" : "None"
+   },
+   {
+      "baseStats" : {
+         "baseCha" : "null",
+         "baseDef" : "null",
+         "baseDex" : "null",
+         "baseHp" : "null",
+         "baseLck" : "null",
+         "baseMag" : "null",
+         "baseRes" : "null",
+         "baseSpd" : "null",
+         "baseStr" : "null"
+      },
+      "birthday" : "10/17",
+      "firstCrest" : "None",
+      "fullName" : "Ashe Ubert",
+      "growthRates" : {
+         "growthRateCha" : "null",
+         "growthRateDef" : "null",
+         "growthRateDex" : "null",
+         "growthRateHp" : "null",
+         "growthRateLck" : "null",
+         "growthRateMag" : "null",
+         "growthRateRes" : "null",
+         "growthRateSpd" : "null",
+         "growthRateStr" : "null"
+      },
+      "house" : "Blue Lions",
+      "name" : "Ashe",
+      "secondCrest" : "None"
+   },
+   {
+      "baseStats" : {
+         "baseCha" : "null",
+         "baseDef" : "null",
+         "baseDex" : "null",
+         "baseHp" : "null",
+         "baseLck" : "null",
+         "baseMag" : "null",
+         "baseRes" : "null",
+         "baseSpd" : "null",
+         "baseStr" : "null"
+      },
+      "birthday" : "6/5",
+      "firstCrest" : "Minor Crest of Gautier",
+      "fullName" : "Sylvain Jose Gautier",
+      "growthRates" : {
+         "growthRateCha" : "null",
+         "growthRateDef" : "null",
+         "growthRateDex" : "null",
+         "growthRateHp" : "null",
+         "growthRateLck" : "null",
+         "growthRateMag" : "null",
+         "growthRateRes" : "null",
+         "growthRateSpd" : "null",
+         "growthRateStr" : "null"
+      },
+      "house" : "Blue Lions",
+      "name" : "Sylvain",
+      "secondCrest" : "None"
+   },
+   {
+      "baseStats" : {
+         "baseCha" : "null",
+         "baseDef" : "null",
+         "baseDex" : "null",
+         "baseHp" : "null",
+         "baseLck" : "null",
+         "baseMag" : "null",
+         "baseRes" : "null",
+         "baseSpd" : "null",
+         "baseStr" : "null"
+      },
+      "birthday" : "5/27",
+      "firstCrest" : "Minor Crest of Lamine",
+      "fullName" : "Mercedes von Martritz",
+      "growthRates" : {
+         "growthRateCha" : "null",
+         "growthRateDef" : "null",
+         "growthRateDex" : "null",
+         "growthRateHp" : "null",
+         "growthRateLck" : "null",
+         "growthRateMag" : "null",
+         "growthRateRes" : "null",
+         "growthRateSpd" : "null",
+         "growthRateStr" : "null"
+      },
+      "house" : "Blue Lions",
+      "name" : "Mercedes",
+      "secondCrest" : "None"
+   },
+   {
+      "baseStats" : {
+         "baseCha" : "null",
+         "baseDef" : "null",
+         "baseDex" : "null",
+         "baseHp" : "null",
+         "baseLck" : "null",
+         "baseMag" : "null",
+         "baseRes" : "null",
+         "baseSpd" : "null",
+         "baseStr" : "null"
+      },
+      "birthday" : "5/9",
+      "firstCrest" : "Minor Crest of Dominic",
+      "fullName" : "Annette Fantine Dominic",
+      "growthRates" : {
+         "growthRateCha" : "null",
+         "growthRateDef" : "null",
+         "growthRateDex" : "null",
+         "growthRateHp" : "null",
+         "growthRateLck" : "null",
+         "growthRateMag" : "null",
+         "growthRateRes" : "null",
+         "growthRateSpd" : "null",
+         "growthRateStr" : "null"
+      },
+      "house" : "Blue Lions",
+      "name" : "Annette",
+      "secondCrest" : "None"
+   },
+   {
+      "baseStats" : {
+         "baseCha" : "null",
+         "baseDef" : "null",
+         "baseDex" : "null",
+         "baseHp" : "null",
+         "baseLck" : "null",
+         "baseMag" : "null",
+         "baseRes" : "null",
+         "baseSpd" : "null",
+         "baseStr" : "null"
+      },
+      "birthday" : "1/4",
+      "firstCrest" : "Minor Crest of Daphnel",
+      "fullName" : "Ingrid Brandl Galatea",
+      "growthRates" : {
+         "growthRateCha" : "null",
+         "growthRateDef" : "null",
+         "growthRateDex" : "null",
+         "growthRateHp" : "null",
+         "growthRateLck" : "null",
+         "growthRateMag" : "null",
+         "growthRateRes" : "null",
+         "growthRateSpd" : "null",
+         "growthRateStr" : "null"
+      },
+      "house" : "Blue Lions",
+      "name" : "Ingrid",
+      "secondCrest" : "None"
+   },
+   {
+      "baseStats" : {
+         "baseCha" : "null",
+         "baseDef" : "null",
+         "baseDex" : "null",
+         "baseHp" : "null",
+         "baseLck" : "null",
+         "baseMag" : "null",
+         "baseRes" : "null",
+         "baseSpd" : "null",
+         "baseStr" : "null"
+      },
+      "birthday" : "6/22",
+      "firstCrest" : "Minor Crest of Seiros",
+      "fullName" : "Edelgard von Hresvelg",
+      "growthRates" : {
+         "growthRateCha" : "null",
+         "growthRateDef" : "null",
+         "growthRateDex" : "null",
+         "growthRateHp" : "null",
+         "growthRateLck" : "null",
+         "growthRateMag" : "null",
+         "growthRateRes" : "null",
+         "growthRateSpd" : "null",
+         "growthRateStr" : "null"
+      },
+      "house" : "Black Eagles",
+      "name" : "Edelgard",
+      "secondCrest" : "Major Crest of Flames"
+   },
+   {
+      "baseStats" : {
+         "baseCha" : "null",
+         "baseDef" : "null",
+         "baseDex" : "null",
+         "baseHp" : "null",
+         "baseLck" : "null",
+         "baseMag" : "null",
+         "baseRes" : "null",
+         "baseSpd" : "null",
+         "baseStr" : "null"
+      },
+      "birthday" : "4/17",
+      "firstCrest" : "None",
+      "fullName" : "Hubert von Vestra",
+      "growthRates" : {
+         "growthRateCha" : "null",
+         "growthRateDef" : "null",
+         "growthRateDex" : "null",
+         "growthRateHp" : "null",
+         "growthRateLck" : "null",
+         "growthRateMag" : "null",
+         "growthRateRes" : "null",
+         "growthRateSpd" : "null",
+         "growthRateStr" : "null"
+      },
+      "house" : "Black Eagles",
+      "name" : "Hubert",
+      "secondCrest" : "None"
+   },
+   {
+      "baseStats" : {
+         "baseCha" : "null",
+         "baseDef" : "null",
+         "baseDex" : "null",
+         "baseHp" : "null",
+         "baseLck" : "null",
+         "baseMag" : "null",
+         "baseRes" : "null",
+         "baseSpd" : "null",
+         "baseStr" : "null"
+      },
+      "birthday" : "4/30",
+      "firstCrest" : "Minor Crest of Cichol",
+      "fullName" : "Ferdinand von Aegir",
+      "growthRates" : {
+         "growthRateCha" : "null",
+         "growthRateDef" : "null",
+         "growthRateDex" : "null",
+         "growthRateHp" : "null",
+         "growthRateLck" : "null",
+         "growthRateMag" : "null",
+         "growthRateRes" : "null",
+         "growthRateSpd" : "null",
+         "growthRateStr" : "null"
+      },
+      "house" : "Black Eagles",
+      "name" : "Ferdinand",
+      "secondCrest" : "None"
+   },
+   {
+      "baseStats" : {
+         "baseCha" : "null",
+         "baseDef" : "null",
+         "baseDex" : "null",
+         "baseHp" : "null",
+         "baseLck" : "null",
+         "baseMag" : "null",
+         "baseRes" : "null",
+         "baseSpd" : "null",
+         "baseStr" : "null"
+      },
+      "birthday" : "11/7",
+      "firstCrest" : "Minor Crest of Cethleann",
+      "fullName" : "Linhardt von Hevring",
+      "growthRates" : {
+         "growthRateCha" : "null",
+         "growthRateDef" : "null",
+         "growthRateDex" : "null",
+         "growthRateHp" : "null",
+         "growthRateLck" : "null",
+         "growthRateMag" : "null",
+         "growthRateRes" : "null",
+         "growthRateSpd" : "null",
+         "growthRateStr" : "null"
+      },
+      "house" : "Black Eagles",
+      "name" : "Linhardt",
+      "secondCrest" : "None"
+   },
+   {
+      "baseStats" : {
+         "baseCha" : "null",
+         "baseDef" : "null",
+         "baseDex" : "null",
+         "baseHp" : "null",
+         "baseLck" : "null",
+         "baseMag" : "null",
+         "baseRes" : "null",
+         "baseSpd" : "null",
+         "baseStr" : "null"
+      },
+      "birthday" : "7/1",
+      "firstCrest" : "None",
+      "fullName" : "Caspar von Bergliez",
+      "growthRates" : {
+         "growthRateCha" : "null",
+         "growthRateDef" : "null",
+         "growthRateDex" : "null",
+         "growthRateHp" : "null",
+         "growthRateLck" : "null",
+         "growthRateMag" : "null",
+         "growthRateRes" : "null",
+         "growthRateSpd" : "null",
+         "growthRateStr" : "null"
+      },
+      "house" : "Black Eagles",
+      "name" : "Caspar",
+      "secondCrest" : "None"
+   },
+   {
+      "baseStats" : {
+         "baseCha" : "null",
+         "baseDef" : "null",
+         "baseDex" : "null",
+         "baseHp" : "null",
+         "baseLck" : "null",
+         "baseMag" : "null",
+         "baseRes" : "null",
+         "baseSpd" : "null",
+         "baseStr" : "null"
+      },
+      "birthday" : "12/12",
+      "firstCrest" : "Minor Crest of Indech",
+      "fullName" : "Bernadetta von Varley",
+      "growthRates" : {
+         "growthRateCha" : "null",
+         "growthRateDef" : "null",
+         "growthRateDex" : "null",
+         "growthRateHp" : "null",
+         "growthRateLck" : "null",
+         "growthRateMag" : "null",
+         "growthRateRes" : "null",
+         "growthRateSpd" : "null",
+         "growthRateStr" : "null"
+      },
+      "house" : "Black Eagles",
+      "name" : "Bernadetta",
+      "secondCrest" : "None"
+   },
+   {
+      "baseStats" : {
+         "baseCha" : "null",
+         "baseDef" : "null",
+         "baseDex" : "null",
+         "baseHp" : "null",
+         "baseLck" : "null",
+         "baseMag" : "null",
+         "baseRes" : "null",
+         "baseSpd" : "null",
+         "baseStr" : "null"
+      },
+      "birthday" : "9/29",
+      "firstCrest" : "None",
+      "fullName" : "Dorothea Arnault",
+      "growthRates" : {
+         "growthRateCha" : "null",
+         "growthRateDef" : "null",
+         "growthRateDex" : "null",
+         "growthRateHp" : "null",
+         "growthRateLck" : "null",
+         "growthRateMag" : "null",
+         "growthRateRes" : "null",
+         "growthRateSpd" : "null",
+         "growthRateStr" : "null"
+      },
+      "house" : "Black Eagles",
+      "name" : "Dorothea",
+      "secondCrest" : "None"
+   },
+   {
+      "baseStats" : {
+         "baseCha" : "null",
+         "baseDef" : "null",
+         "baseDex" : "null",
+         "baseHp" : "null",
+         "baseLck" : "null",
+         "baseMag" : "null",
+         "baseRes" : "null",
+         "baseSpd" : "null",
+         "baseStr" : "null"
+      },
+      "birthday" : "9/7",
+      "firstCrest" : "None",
+      "fullName" : "Petra Macneary",
+      "growthRates" : {
+         "growthRateCha" : "null",
+         "growthRateDef" : "null",
+         "growthRateDex" : "null",
+         "growthRateHp" : "null",
+         "growthRateLck" : "null",
+         "growthRateMag" : "null",
+         "growthRateRes" : "null",
+         "growthRateSpd" : "null",
+         "growthRateStr" : "null"
+      },
+      "house" : "Black Eagles",
+      "name" : "Petra",
+      "secondCrest" : "None"
+   },
+   {
+      "baseStats" : {
+         "baseCha" : "null",
+         "baseDef" : "null",
+         "baseDex" : "null",
+         "baseHp" : "null",
+         "baseLck" : "null",
+         "baseMag" : "null",
+         "baseRes" : "null",
+         "baseSpd" : "null",
+         "baseStr" : "null"
+      },
+      "birthday" : "3/4",
+      "firstCrest" : "Minor Crest of Lamine",
+      "fullName" : "Jeritza von Hrym",
+      "growthRates" : {
+         "growthRateCha" : "null",
+         "growthRateDef" : "null",
+         "growthRateDex" : "null",
+         "growthRateHp" : "null",
+         "growthRateLck" : "null",
+         "growthRateMag" : "null",
+         "growthRateRes" : "null",
+         "growthRateSpd" : "null",
+         "growthRateStr" : "null"
+      },
+      "house" : "Church of Seiros",
+      "name" : "Jeritza",
+      "secondCrest" : "None"
+   },
+   {
+      "baseStats" : {
+         "baseCha" : "null",
+         "baseDef" : "null",
+         "baseDex" : "null",
+         "baseHp" : "null",
+         "baseLck" : "null",
+         "baseMag" : "null",
+         "baseRes" : "null",
+         "baseSpd" : "null",
+         "baseStr" : "null"
+      },
+      "birthday" : "n/a",
+      "firstCrest" : "Major Crest of Flames",
+      "fullName" : "Byleth Eisner",
+      "growthRates" : {
+         "growthRateCha" : "null",
+         "growthRateDef" : "null",
+         "growthRateDex" : "null",
+         "growthRateHp" : "null",
+         "growthRateLck" : "null",
+         "growthRateMag" : "null",
+         "growthRateRes" : "null",
+         "growthRateSpd" : "null",
+         "growthRateStr" : "null"
+      },
+      "house" : "Church of Seiros",
+      "name" : "Byleth",
+      "secondCrest" : "None"
+   },
+   {
+      "baseStats" : {
+         "baseCha" : "null",
+         "baseDef" : "null",
+         "baseDex" : "null",
+         "baseHp" : "null",
+         "baseLck" : "null",
+         "baseMag" : "null",
+         "baseRes" : "null",
+         "baseSpd" : "null",
+         "baseStr" : "null"
+      },
+      "birthday" : "12/27",
+      "firstCrest" : "Major Crest of Cichol",
+      "fullName" : "Seteth",
+      "growthRates" : {
+         "growthRateCha" : "null",
+         "growthRateDef" : "null",
+         "growthRateDex" : "null",
+         "growthRateHp" : "null",
+         "growthRateLck" : "null",
+         "growthRateMag" : "null",
+         "growthRateRes" : "null",
+         "growthRateSpd" : "null",
+         "growthRateStr" : "null"
+      },
+      "house" : "Church of Seiros",
+      "name" : "Seteth",
+      "secondCrest" : "None"
+   },
+   {
+      "baseStats" : {
+         "baseCha" : "null",
+         "baseDef" : "null",
+         "baseDex" : "null",
+         "baseHp" : "null",
+         "baseLck" : "null",
+         "baseMag" : "null",
+         "baseRes" : "null",
+         "baseSpd" : "null",
+         "baseStr" : "null"
+      },
+      "birthday" : "7/12",
+      "firstCrest" : "Major Crest of Cethleann",
+      "fullName" : "Flayn",
+      "growthRates" : {
+         "growthRateCha" : "null",
+         "growthRateDef" : "null",
+         "growthRateDex" : "null",
+         "growthRateHp" : "null",
+         "growthRateLck" : "null",
+         "growthRateMag" : "null",
+         "growthRateRes" : "null",
+         "growthRateSpd" : "null",
+         "growthRateStr" : "null"
+      },
+      "house" : "Church of Seiros",
+      "name" : "Flayn",
+      "secondCrest" : "None"
+   },
+   {
+      "baseStats" : {
+         "baseCha" : "null",
+         "baseDef" : "null",
+         "baseDex" : "null",
+         "baseHp" : "null",
+         "baseLck" : "null",
+         "baseMag" : "null",
+         "baseRes" : "null",
+         "baseSpd" : "null",
+         "baseStr" : "null"
+      },
+      "birthday" : "2/8",
+      "firstCrest" : "Minor Crest of Indech",
+      "fullName" : "Hanneman von Essar",
+      "growthRates" : {
+         "growthRateCha" : "null",
+         "growthRateDef" : "null",
+         "growthRateDex" : "null",
+         "growthRateHp" : "null",
+         "growthRateLck" : "null",
+         "growthRateMag" : "null",
+         "growthRateRes" : "null",
+         "growthRateSpd" : "null",
+         "growthRateStr" : "null"
+      },
+      "house" : "Church of Seiros",
+      "name" : "Hanneman",
+      "secondCrest" : "None"
+   },
+   {
+      "baseStats" : {
+         "baseCha" : "null",
+         "baseDef" : "null",
+         "baseDex" : "null",
+         "baseHp" : "null",
+         "baseLck" : "null",
+         "baseMag" : "null",
+         "baseRes" : "null",
+         "baseSpd" : "null",
+         "baseStr" : "null"
+      },
+      "birthday" : "8/3",
+      "firstCrest" : "None",
+      "fullName" : "Manuela Casagranda",
+      "growthRates" : {
+         "growthRateCha" : "null",
+         "growthRateDef" : "null",
+         "growthRateDex" : "null",
+         "growthRateHp" : "null",
+         "growthRateLck" : "null",
+         "growthRateMag" : "null",
+         "growthRateRes" : "null",
+         "growthRateSpd" : "null",
+         "growthRateStr" : "null"
+      },
+      "house" : "Church of Seiros",
+      "name" : "Manuela",
+      "secondCrest" : "None"
+   },
+   {
+      "baseStats" : {
+         "baseCha" : "null",
+         "baseDef" : "null",
+         "baseDex" : "null",
+         "baseHp" : "null",
+         "baseLck" : "null",
+         "baseMag" : "null",
+         "baseRes" : "null",
+         "baseSpd" : "null",
+         "baseStr" : "null"
+      },
+      "birthday" : "1/26",
+      "firstCrest" : "None",
+      "fullName" : "Gilbert Pronislav",
+      "growthRates" : {
+         "growthRateCha" : "null",
+         "growthRateDef" : "null",
+         "growthRateDex" : "null",
+         "growthRateHp" : "null",
+         "growthRateLck" : "null",
+         "growthRateMag" : "null",
+         "growthRateRes" : "null",
+         "growthRateSpd" : "null",
+         "growthRateStr" : "null"
+      },
+      "house" : "Church of Seiros",
+      "name" : "Gilbert",
+      "secondCrest" : "None"
+   },
+   {
+      "baseStats" : {
+         "baseCha" : "null",
+         "baseDef" : "null",
+         "baseDex" : "null",
+         "baseHp" : "null",
+         "baseLck" : "null",
+         "baseMag" : "null",
+         "baseRes" : "null",
+         "baseSpd" : "null",
+         "baseStr" : "null"
+      },
+      "birthday" : "12/1",
+      "firstCrest" : "None",
+      "fullName" : "Alois Rangeld",
+      "growthRates" : {
+         "growthRateCha" : "null",
+         "growthRateDef" : "null",
+         "growthRateDex" : "null",
+         "growthRateHp" : "null",
+         "growthRateLck" : "null",
+         "growthRateMag" : "null",
+         "growthRateRes" : "null",
+         "growthRateSpd" : "null",
+         "growthRateStr" : "null"
+      },
+      "house" : "Church of Seiros",
+      "name" : "Alois",
+      "secondCrest" : "None"
+   },
+   {
+      "baseStats" : {
+         "baseCha" : "null",
+         "baseDef" : "null",
+         "baseDex" : "null",
+         "baseHp" : "null",
+         "baseLck" : "null",
+         "baseMag" : "null",
+         "baseRes" : "null",
+         "baseSpd" : "null",
+         "baseStr" : "null"
+      },
+      "birthday" : "9/15",
+      "firstCrest" : "Major Crest of Charon",
+      "fullName" : "Catherine",
+      "growthRates" : {
+         "growthRateCha" : "null",
+         "growthRateDef" : "null",
+         "growthRateDex" : "null",
+         "growthRateHp" : "null",
+         "growthRateLck" : "null",
+         "growthRateMag" : "null",
+         "growthRateRes" : "null",
+         "growthRateSpd" : "null",
+         "growthRateStr" : "null"
+      },
+      "house" : "Church of Seiros",
+      "name" : "Catherine",
+      "secondCrest" : "None"
+   },
+   {
+      "baseStats" : {
+         "baseCha" : "null",
+         "baseDef" : "null",
+         "baseDex" : "null",
+         "baseHp" : "null",
+         "baseLck" : "null",
+         "baseMag" : "null",
+         "baseRes" : "null",
+         "baseSpd" : "null",
+         "baseStr" : "null"
+      },
+      "birthday" : "3/27",
+      "firstCrest" : "None",
+      "fullName" : "Shamir Nevrand",
+      "growthRates" : {
+         "growthRateCha" : "null",
+         "growthRateDef" : "null",
+         "growthRateDex" : "null",
+         "growthRateHp" : "null",
+         "growthRateLck" : "null",
+         "growthRateMag" : "null",
+         "growthRateRes" : "null",
+         "growthRateSpd" : "null",
+         "growthRateStr" : "null"
+      },
+      "house" : "Church of Seiros",
+      "name" : "Shamir",
+      "secondCrest" : "None"
+   },
+   {
+      "baseStats" : {
+         "baseCha" : "null",
+         "baseDef" : "null",
+         "baseDex" : "null",
+         "baseHp" : "null",
+         "baseLck" : "null",
+         "baseMag" : "null",
+         "baseRes" : "null",
+         "baseSpd" : "null",
+         "baseStr" : "null"
+      },
+      "birthday" : "10/25",
+      "firstCrest" : "None",
+      "fullName" : "Cyril",
+      "growthRates" : {
+         "growthRateCha" : "null",
+         "growthRateDef" : "null",
+         "growthRateDex" : "null",
+         "growthRateHp" : "null",
+         "growthRateLck" : "null",
+         "growthRateMag" : "null",
+         "growthRateRes" : "null",
+         "growthRateSpd" : "null",
+         "growthRateStr" : "null"
+      },
+      "house" : "Church of Seiros",
+      "name" : "Cyril",
+      "secondCrest" : "None"
+   },
+   {
+      "baseStats" : {
+         "baseCha" : "null",
+         "baseDef" : "null",
+         "baseDex" : "null",
+         "baseHp" : "null",
+         "baseLck" : "null",
+         "baseMag" : "null",
+         "baseRes" : "null",
+         "baseSpd" : "null",
+         "baseStr" : "null"
+      },
+      "birthday" : "6/9",
+      "firstCrest" : "Major Crest of Ernest",
+      "fullName" : "Anna",
+      "growthRates" : {
+         "growthRateCha" : "null",
+         "growthRateDef" : "null",
+         "growthRateDex" : "null",
+         "growthRateHp" : "null",
+         "growthRateLck" : "null",
+         "growthRateMag" : "null",
+         "growthRateRes" : "null",
+         "growthRateSpd" : "null",
+         "growthRateStr" : "null"
+      },
+      "house" : "Church of Seiros",
+      "name" : "Anna",
+      "secondCrest" : "None"
+   },
+   {
+      "baseStats" : {
+         "baseCha" : "null",
+         "baseDef" : "null",
+         "baseDex" : "null",
+         "baseHp" : "null",
+         "baseLck" : "null",
+         "baseMag" : "null",
+         "baseRes" : "null",
+         "baseSpd" : "null",
+         "baseStr" : "null"
+      },
+      "birthday" : "8/12",
+      "firstCrest" : "Major Crest of Aubin",
+      "fullName" : "Yuri Leclerc",
+      "growthRates" : {
+         "growthRateCha" : "null",
+         "growthRateDef" : "null",
+         "growthRateDex" : "null",
+         "growthRateHp" : "null",
+         "growthRateLck" : "null",
+         "growthRateMag" : "null",
+         "growthRateRes" : "null",
+         "growthRateSpd" : "null",
+         "growthRateStr" : "null"
+      },
+      "house" : "Ashen Wolves",
+      "name" : "Yuri",
+      "secondCrest" : "None"
+   },
+   {
+      "baseStats" : {
+         "baseCha" : "null",
+         "baseDef" : "null",
+         "baseDex" : "null",
+         "baseHp" : "null",
+         "baseLck" : "null",
+         "baseMag" : "null",
+         "baseRes" : "null",
+         "baseSpd" : "null",
+         "baseStr" : "null"
+      },
+      "birthday" : "7/9",
+      "firstCrest" : "Major Crest of Chevalier",
+      "fullName" : "Balthus von Albrecht",
+      "growthRates" : {
+         "growthRateCha" : "null",
+         "growthRateDef" : "null",
+         "growthRateDex" : "null",
+         "growthRateHp" : "null",
+         "growthRateLck" : "null",
+         "growthRateMag" : "null",
+         "growthRateRes" : "null",
+         "growthRateSpd" : "null",
+         "growthRateStr" : "null"
+      },
+      "house" : "Ashen Wolves",
+      "name" : "Balthus",
+      "secondCrest" : "None"
+   },
+   {
+      "baseStats" : {
+         "baseCha" : "null",
+         "baseDef" : "null",
+         "baseDex" : "null",
+         "baseHp" : "null",
+         "baseLck" : "null",
+         "baseMag" : "null",
+         "baseRes" : "null",
+         "baseSpd" : "null",
+         "baseStr" : "null"
+      },
+      "birthday" : "3/20",
+      "firstCrest" : "Major Crest of Noa",
+      "fullName" : "Constance von Nuvelle",
+      "growthRates" : {
+         "growthRateCha" : "null",
+         "growthRateDef" : "null",
+         "growthRateDex" : "null",
+         "growthRateHp" : "null",
+         "growthRateLck" : "null",
+         "growthRateMag" : "null",
+         "growthRateRes" : "null",
+         "growthRateSpd" : "null",
+         "growthRateStr" : "null"
+      },
+      "house" : "Ashen Wolves",
+      "name" : "Constance",
+      "secondCrest" : "None"
+   },
+   {
+      "baseStats" : {
+         "baseCha" : "null",
+         "baseDef" : "null",
+         "baseDex" : "null",
+         "baseHp" : "null",
+         "baseLck" : "null",
+         "baseMag" : "null",
+         "baseRes" : "null",
+         "baseSpd" : "null",
+         "baseStr" : "null"
+      },
+      "birthday" : "1/15",
+      "firstCrest" : "Major Crest of Timotheos",
+      "fullName" : "Hapi",
+      "growthRates" : {
+         "growthRateCha" : "null",
+         "growthRateDef" : "null",
+         "growthRateDex" : "null",
+         "growthRateHp" : "null",
+         "growthRateLck" : "null",
+         "growthRateMag" : "null",
+         "growthRateRes" : "null",
+         "growthRateSpd" : "null",
+         "growthRateStr" : "null"
+      },
+      "house" : "Ashen Wolves",
+      "name" : "Hapi",
+      "secondCrest" : "None"
+   }
+]

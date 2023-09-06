@@ -1,6 +1,7 @@
 package com.fe3h;
 
-import java.util.*;
+import java.util.Map;
+import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -12,6 +13,8 @@ import org.springframework.web.bind.annotation.RestController;
 public class Fe3hApiController {
   @Autowired
   private UnitRepository unitRepository;
+
+  private Fe3hApiService fe3hApiService = new Fe3hApiService();
 
   // @PostMapping(path="/add")
   // public @ResponseBody String addNewUnit (@RequestParam String name
@@ -29,9 +32,15 @@ public class Fe3hApiController {
   //   return unitRepository.findAll();
   // }
 
+  // @GetMapping(path="/")
+  // public @ResponseBody Object[] all() {
+  //   return unitRepository.indexAll();
+  // }
+
   @GetMapping(path="/")
-  public @ResponseBody List<Object[]> all() {
-    return unitRepository.indexAll();
+  public @ResponseBody List<Map<String, Object>> all() {
+    String[] sqlQueries = unitRepository.indexAll();
+    return fe3hApiService.stringToMapAll(sqlQueries);
   }
 
   // @GetMapping(path="/unit/{id}")
@@ -43,6 +52,7 @@ public class Fe3hApiController {
   @GetMapping(path="/unit/{id}")
   public @ResponseBody Map<String, Object> indexOne(@PathVariable String id) {
     int unitId = Integer.parseInt(id);
-    return unitRepository.indexOne(unitId);
+    String sqlQuery = unitRepository.indexOne(unitId);
+    return fe3hApiService.stringToMap(sqlQuery);
   }
 }
