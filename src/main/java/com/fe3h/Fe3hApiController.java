@@ -34,8 +34,14 @@ public class Fe3hApiController {
     return unitRepository.indexAll();
   }
 
+  // @GetMapping(path="/unit/{id}")
+  // public @ResponseBody Object[] index(@PathVariable String id) {
+  //   int unitId = Integer.parseInt(id);
+  //   return (unitRepository.indexOne(unitId));
+  // }
+
   @GetMapping(path="/unit/{id}")
-  public @ResponseBody List<Object[]> index(@PathVariable String id) {
+  public @ResponseBody Map<String, Object> indexOne(@PathVariable String id) {
     int unitId = Integer.parseInt(id);
     return unitRepository.indexOne(unitId);
   }
