@@ -29,11 +29,4 @@ interface UnitRepository extends JpaRepository<Unit, Integer> {
       """
     )
     public String indexOne(@Param("unitId") int unitId);
-
-  /*
-   * Just use hashmap middleware converter lol
-   */
-
-    // @Query(name = "findUnitObject", nativeQuery = true)
-    // public Object[] indexOne(@Param("unitId") int unitId);
 }

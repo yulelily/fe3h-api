@@ -16,38 +16,11 @@ public class Fe3hApiController {
 
   private Fe3hApiService fe3hApiService = new Fe3hApiService();
 
-  // @PostMapping(path="/add")
-  // public @ResponseBody String addNewUnit (@RequestParam String name
-  //     , @RequestParam String house) {
-
-  //   Unit unit = new Unit();
-  //   unit.setName(name);
-  //   unit.setHouse(house);
-  //   unitRepository.save(unit);
-  //   return "Saved";
-  // }
-
-  // @GetMapping(path="/")
-  // public @ResponseBody Iterable<Unit> indexAll() {
-  //   return unitRepository.findAll();
-  // }
-
-  // @GetMapping(path="/")
-  // public @ResponseBody Object[] all() {
-  //   return unitRepository.indexAll();
-  // }
-
   @GetMapping(path="/unit")
   public @ResponseBody List<Map<String, Object>> indexAll() {
     String[] sqlQueries = unitRepository.indexAll();
     return fe3hApiService.stringToMapAll(sqlQueries);
   }
-
-  // @GetMapping(path="/unit/{id}")
-  // public @ResponseBody Object[] index(@PathVariable String id) {
-  //   int unitId = Integer.parseInt(id);
-  //   return (unitRepository.indexOne(unitId));
-  // }
 
   @GetMapping(path="/unit/{id}")
   public @ResponseBody Map<String, Object> indexOneById(@PathVariable String id) {
