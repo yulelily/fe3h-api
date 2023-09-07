@@ -37,8 +37,8 @@ public class Fe3hApiController {
   //   return unitRepository.indexAll();
   // }
 
-  @GetMapping(path="/")
-  public @ResponseBody List<Map<String, Object>> all() {
+  @GetMapping(path="/unit")
+  public @ResponseBody List<Map<String, Object>> indexAll() {
     String[] sqlQueries = unitRepository.indexAll();
     return fe3hApiService.stringToMapAll(sqlQueries);
   }
@@ -50,7 +50,7 @@ public class Fe3hApiController {
   // }
 
   @GetMapping(path="/unit/{id}")
-  public @ResponseBody Map<String, Object> indexOne(@PathVariable String id) {
+  public @ResponseBody Map<String, Object> indexOneById(@PathVariable String id) {
     int unitId = Integer.parseInt(id);
     String sqlQuery = unitRepository.indexOne(unitId);
     return fe3hApiService.stringToMap(sqlQuery);

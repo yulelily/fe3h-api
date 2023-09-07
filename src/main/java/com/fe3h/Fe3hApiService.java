@@ -6,6 +6,7 @@ import java.util.Map;
 import java.util.List;
 
 import org.springframework.stereotype.Service;
+import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.*;
 
 @Service
 public class Fe3hApiService {
@@ -30,6 +31,11 @@ public class Fe3hApiService {
     response.put("birthday", parsedQuery[4]);
     response.put("firstCrest", parsedQuery[5]);
     response.put("secondCrest", parsedQuery[6]);
+
+    Map<String, Object> _links = new HashMap<>();
+    _links.put("self", linkTo(methodOn(Fe3hApiController.class).indexOneById(parsedQuery[0])).withSelfRel());
+    _links.put("all", linkTo(methodOn(Fe3hApiController.class).indexAll()).withRel("unit"));
+    response.put("_links", _links);
 
     Map<String, Object> baseStatsArr = new HashMap<>();
     baseStatsArr.put("baseHp", parsedQuery[9]);

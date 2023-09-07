@@ -1,4 +1,14 @@
 {
+   "_links" : {
+      "all" : {
+         "href" : "http://localhost:8080/unit",
+         "rel" : "unit"
+      },
+      "self" : {
+         "href" : "http://localhost:8080/unit/1",
+         "rel" : "self"
+      }
+   },
    "baseStats" : {
       "baseCha" : "8",
       "baseDef" : "6",
