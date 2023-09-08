@@ -67,6 +67,22 @@ public class Fe3hApiService {
     defaultClassesArr.put("intermediateClass", parsedQuery[33]);
     response.put("defaultClasses", defaultClassesArr);
     
+    Map<String, Object> boonsBanesBuddingArr = new HashMap<>();
+    boonsBanesBuddingArr.put("sword", parsedQuery[36]);
+    boonsBanesBuddingArr.put("lance", parsedQuery[37]);
+    boonsBanesBuddingArr.put("axe", parsedQuery[38]);
+    boonsBanesBuddingArr.put("bow", parsedQuery[39]);
+    boonsBanesBuddingArr.put("brawl", parsedQuery[40]);
+    boonsBanesBuddingArr.put("reason", parsedQuery[41]);
+    boonsBanesBuddingArr.put("faith", parsedQuery[42]);
+    boonsBanesBuddingArr.put("authority", parsedQuery[43]);
+    boonsBanesBuddingArr.put("heavyArmor", parsedQuery[44]);
+    boonsBanesBuddingArr.put("riding", parsedQuery[45]);
+    boonsBanesBuddingArr.put("flying", parsedQuery[46]);
+    boonsBanesBuddingArr.put("budding", parsedQuery[47]);
+    boonsBanesBuddingArr.put("buddingTalent", parsedQuery[48]);
+    response.put("boonsBanesBudding", boonsBanesBuddingArr);
+
     return response;
   }
 }

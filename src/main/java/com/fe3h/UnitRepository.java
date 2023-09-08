@@ -8,14 +8,16 @@ interface UnitRepository extends JpaRepository<Unit, Integer> {
   @Query(
     nativeQuery = true,
     value = """
-        SELECT * FROM unit 
-        LEFT JOIN base_stats 
-        ON base_stats.unit_id = unit.id 
-          LEFT JOIN unit_growth_rates 
-          ON unit_growth_rates.unit_id = base_stats.unit_id
-            LEFT JOIN default_classes
-            ON default_classes.unit_id = unit_growth_rates.unit_id
-        """
+      SELECT * FROM unit 
+      LEFT JOIN base_stats 
+      ON base_stats.unit_id = unit.id 
+        LEFT JOIN unit_growth_rates 
+        ON unit_growth_rates.unit_id = base_stats.unit_id
+          LEFT JOIN default_classes
+          ON default_classes.unit_id = unit_growth_rates.unit_id
+            LEFT JOIN boons_banes
+            ON boons_banes.unit_id = default_classes.unit_id
+      """
     )
     public String[] indexAll();
 
@@ -27,8 +29,10 @@ interface UnitRepository extends JpaRepository<Unit, Integer> {
       ON base_stats.unit_id = unit.id 
         LEFT JOIN unit_growth_rates 
         ON unit_growth_rates.unit_id = base_stats.unit_id 
-            LEFT JOIN default_classes
-            ON default_classes.unit_id = unit_growth_rates.unit_id
+          LEFT JOIN default_classes
+          ON default_classes.unit_id = unit_growth_rates.unit_id
+            LEFT JOIN boons_banes
+            ON boons_banes.unit_id = default_classes.unit_id
         WHERE unit.id = :unitId
       """
     )

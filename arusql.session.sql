@@ -39,7 +39,6 @@ ON DUPLICATE KEY UPDATE id=VALUES(id), unit_id=VALUES(unit_id),
 budding_talent=VALUES(budding_talent);
 
 -- @block
-SELECT * FROM default_classes;
 SELECT * FROM boons_banes;
 SELECT * FROM base_skill_levels;
 SELECT * FROM dependent_abilities;
@@ -218,3 +217,10 @@ VALUES
   (38, "Noble", "Fighter", "Brawler"),
   (39, "Noble", "Monk", "Mage"),
   (40, "Commoner", "Monk", "Mage");
+
+-- @block
+UPDATE boons_banes
+SET
+  budding_talent = 'None'
+WHERE
+  budding = 'None';

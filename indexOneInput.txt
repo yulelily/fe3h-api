@@ -21,47 +21,21 @@
       "baseStr" : "11"
    },
    "birthday" : "7/24",
-   "firstCrest" : "Minor Crest of Riegan",
-   "fullName" : "Claude von Riegan",
-   "growthRates" : {
-      "growthRateCha" : "55",
-      "growthRateDef" : "30",
-      "growthRateDex" : "60",
-      "growthRateHp" : "35",
-      "growthRateLck" : "45",
-      "growthRateMag" : "25",
-      "growthRateRes" : "25",
-      "growthRateSpd" : "55",
-      "growthRateStr" : "40"
+   "boonsBanesBudding" : {
+      "authority" : "Boon",
+      "axe" : "None",
+      "bow" : "Boon",
+      "brawl" : "None",
+      "budding" : "Axe",
+      "buddingTalent" : "Diamond Axe",
+      "faith" : "Bane",
+      "flying" : "Boon",
+      "heavyArmor" : "None",
+      "lance" : "Bane",
+      "reason" : "None",
+      "riding" : "None",
+      "sword" : "Boon"
    },
-   "house" : "Golden Deer",
-   "name" : "Claude",
-   "secondCrest" : "None"
-}
-
-{
-   "_links" : {
-      "all" : {
-         "href" : "http://localhost:8080/unit",
-         "rel" : "unit"
-      },
-      "self" : {
-         "href" : "http://localhost:8080/unit/1",
-         "rel" : "self"
-      }
-   },
-   "baseStats" : {
-      "baseCha" : "8",
-      "baseDef" : "6",
-      "baseDex" : "8",
-      "baseHp" : "26",
-      "baseLck" : "7",
-      "baseMag" : "5",
-      "baseRes" : "4",
-      "baseSpd" : "8",
-      "baseStr" : "11"
-   },
-   "birthday" : "7/24",
    "defaultClasses" : {
       "beginnerClass" : "Noble",
       "intermediateClass" : "Noble",
