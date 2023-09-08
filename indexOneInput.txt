@@ -60,6 +60,16 @@
       "C+" : "Model Leader",
       "S" : "Rally Charm"
    },
+   "dependentCombatArts" : {
+      "A" : [
+         "Finesse Blade",
+         "Encloser"
+      ],
+      "C+" : [
+         "Bane of Monsters",
+         "Monster Blast"
+      ]
+   },
    "firstCrest" : "Minor Crest of Riegan",
    "fullName" : "Claude von Riegan",
    "growthRates" : {

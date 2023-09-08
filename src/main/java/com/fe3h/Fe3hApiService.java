@@ -108,6 +108,23 @@ public class Fe3hApiService {
     }
     response.put("dependentAbilities", dependentAbilitiesArr);
 
+    Map<String, ArrayList<String>> dependentCombatArtsArr = new HashMap<>();
+    for (int i = 0; i < 5; i++) {
+      String art = parsedQuery[76 + (2 * i)];
+      if (art.equals("NA")) {
+        break;
+      }
+      String req = parsedQuery[77 + (2 * i)];
+      if (dependentCombatArtsArr.containsKey(req)) {
+        dependentCombatArtsArr.get(req).add(art);
+      } else {
+        ArrayList<String> newList = new ArrayList<String>();
+        newList.add(art);
+        dependentCombatArtsArr.put(req, newList);
+      }
+    }
+    response.put("dependentCombatArts", dependentCombatArtsArr);
+
     return response;
   }
 }
