@@ -224,3 +224,9 @@ SET
   budding_talent = 'None'
 WHERE
   budding = 'None';
+
+-- @block
+CREATE INDEX name_index ON unit(name);
+
+-- @block
+SHOW INDEX FROM unit;

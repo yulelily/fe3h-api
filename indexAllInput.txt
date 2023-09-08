@@ -10,6 +10,19 @@
             "rel" : "self"
          }
       },
+      "baseSkillLevels" : {
+         "authority" : "D",
+         "axe" : "E",
+         "bow" : "D",
+         "brawl" : "E",
+         "faith" : "E",
+         "flying" : "E+",
+         "heavyArmor" : "E",
+         "lance" : "E",
+         "reason" : "E",
+         "riding" : "E+",
+         "sword" : "E+"
+      },
       "baseStats" : {
          "baseCha" : "8",
          "baseDef" : "6",
@@ -22,6 +35,48 @@
          "baseStr" : "11"
       },
       "birthday" : "7/24",
+      "boonsBanesBudding" : {
+         "authority" : "Boon",
+         "axe" : "None",
+         "bow" : "Boon",
+         "brawl" : "None",
+         "budding" : "Axe",
+         "buddingTalent" : "Diamond Axe",
+         "faith" : "Bane",
+         "flying" : "Boon",
+         "heavyArmor" : "None",
+         "lance" : "Bane",
+         "reason" : "None",
+         "riding" : "None",
+         "sword" : "Boon"
+      },
+      "defaultClasses" : {
+         "beginnerClass" : "Noble",
+         "intermediateClass" : "Noble",
+         "startingClass" : "Noble"
+      },
+      "dependentAbilities" : {
+         "A" : "Battalion Wrath",
+         "C" : "Battalion Desperation",
+         "C+" : "Model Leader",
+         "S" : "Rally Charm"
+      },
+      "dependentCombatArts" : {
+         "A" : [
+            "Finesse Blade",
+            "Encloser"
+         ],
+         "C+" : [
+            "Bane of Monsters",
+            "Monster Blast"
+         ]
+      },
+      "faithSpells" : {
+         "A" : "Silence",
+         "C" : "Recover",
+         "D" : "Heal",
+         "D+" : "Nosferatu"
+      },
       "firstCrest" : "Minor Crest of Riegan",
       "fullName" : "Claude von Riegan",
       "growthRates" : {
@@ -37,6 +92,12 @@
       },
       "house" : "Golden Deer",
       "name" : "Claude",
+      "reasonSpells" : {
+         "A" : "Excalibur",
+         "B" : "Cutting Gale",
+         "C" : "Sagittae",
+         "D" : "Wind"
+      },
       "secondCrest" : "None"
    },
    {
@@ -50,6 +111,19 @@
             "rel" : "self"
          }
       },
+      "baseSkillLevels" : {
+         "authority" : "E",
+         "axe" : "D",
+         "bow" : "E",
+         "brawl" : "E",
+         "faith" : "E",
+         "flying" : "E",
+         "heavyArmor" : "E",
+         "lance" : "E+",
+         "reason" : "E",
+         "riding" : "E",
+         "sword" : "E"
+      },
       "baseStats" : {
          "baseCha" : "7",
          "baseDef" : "6",
@@ -62,6 +136,43 @@
          "baseStr" : "10"
       },
       "birthday" : "2/3",
+      "boonsBanesBudding" : {
+         "authority" : "Bane",
+         "axe" : "Boon",
+         "bow" : "None",
+         "brawl" : "None",
+         "budding" : "HeavyArmor",
+         "buddingTalent" : "Seal Speed",
+         "faith" : "Bane",
+         "flying" : "None",
+         "heavyArmor" : "None",
+         "lance" : "Boon",
+         "reason" : "None",
+         "riding" : "None",
+         "sword" : "None"
+      },
+      "defaultClasses" : {
+         "beginnerClass" : "Fighter",
+         "intermediateClass" : "Brigand",
+         "startingClass" : "Noble"
+      },
+      "dependentAbilities" : {
+         "C" : "Battalion Wrath"
+      },
+      "dependentCombatArts" : {
+         "A" : [
+            "Diamond Axe"
+         ],
+         "C+" : [
+            "Shatter Slash",
+            "Spike"
+         ]
+      },
+      "faithSpells" : {
+         "C" : "Recover",
+         "D" : "Heal",
+         "D+" : "Nosferatu"
+      },
       "firstCrest" : "Minor Crest of Goneril",
       "fullName" : "Hilda Valentine Goneril",
       "growthRates" : {
@@ -77,6 +188,11 @@
       },
       "house" : "Golden Deer",
       "name" : "Hilda",
+      "reasonSpells" : {
+         "A" : "Bolting",
+         "C" : "Thoron",
+         "D" : "Thunder"
+      },
       "secondCrest" : "None"
    },
    {
@@ -90,6 +206,19 @@
             "rel" : "self"
          }
       },
+      "baseSkillLevels" : {
+         "authority" : "E",
+         "axe" : "E",
+         "bow" : "E",
+         "brawl" : "E",
+         "faith" : "E",
+         "flying" : "E",
+         "heavyArmor" : "E",
+         "lance" : "D",
+         "reason" : "E+",
+         "riding" : "D",
+         "sword" : "E"
+      },
       "baseStats" : {
          "baseCha" : "3",
          "baseDef" : "6",
@@ -102,6 +231,40 @@
          "baseStr" : "8"
       },
       "birthday" : "6/13",
+      "boonsBanesBudding" : {
+         "authority" : "None",
+         "axe" : "None",
+         "bow" : "None",
+         "brawl" : "Bane",
+         "budding" : "None",
+         "buddingTalent" : "None",
+         "faith" : "None",
+         "flying" : "None",
+         "heavyArmor" : "None",
+         "lance" : "Boon",
+         "reason" : "Boon",
+         "riding" : "Boon",
+         "sword" : "None"
+      },
+      "defaultClasses" : {
+         "beginnerClass" : "Soldier",
+         "intermediateClass" : "Cavalier",
+         "startingClass" : "Noble"
+      },
+      "dependentAbilities" : {
+         "C" : "Battalion Vantage"
+      },
+      "dependentCombatArts" : {
+         "C+" : [
+            "Frozen Lance"
+         ]
+      },
+      "faithSpells" : {
+         "B" : "Ward",
+         "C" : "Recover",
+         "D" : "Heal",
+         "D+" : "Nosferatu"
+      },
       "firstCrest" : "Minor Crest of Gloucester",
       "fullName" : "Lorenz Hellman Gloucester",
       "growthRates" : {
@@ -117,6 +280,12 @@
       },
       "house" : "Golden Deer",
       "name" : "Lorenz",
+      "reasonSpells" : {
+         "A" : "Agnea's Arrow",
+         "B" : "Ragnarok",
+         "C" : "Sagittae",
+         "D" : "Fire"
+      },
       "secondCrest" : "None"
    },
    {
@@ -130,6 +299,19 @@
             "rel" : "self"
          }
       },
+      "baseSkillLevels" : {
+         "authority" : "E",
+         "axe" : "E+",
+         "bow" : "E",
+         "brawl" : "D",
+         "faith" : "E",
+         "flying" : "E",
+         "heavyArmor" : "D",
+         "lance" : "E",
+         "reason" : "E",
+         "riding" : "E",
+         "sword" : "E"
+      },
       "baseStats" : {
          "baseCha" : "4",
          "baseDef" : "7",
@@ -142,6 +324,44 @@
          "baseStr" : "11"
       },
       "birthday" : "5/18",
+      "boonsBanesBudding" : {
+         "authority" : "None",
+         "axe" : "Boon",
+         "bow" : "Bane",
+         "brawl" : "Boon",
+         "budding" : "None",
+         "buddingTalent" : "None",
+         "faith" : "None",
+         "flying" : "None",
+         "heavyArmor" : "Boon",
+         "lance" : "None",
+         "reason" : "Bane",
+         "riding" : "Bane",
+         "sword" : "None"
+      },
+      "defaultClasses" : {
+         "beginnerClass" : "Fighter",
+         "intermediateClass" : "Brawler",
+         "startingClass" : "Commoner"
+      },
+      "dependentAbilities" : {
+         "C" : "Battalion Wrath",
+         "D" : "Rally Strength"
+      },
+      "dependentCombatArts" : {
+         "A" : [
+            "Draining Blow"
+         ],
+         "C+" : [
+            "Wild Abandon",
+            "Monster Crusher"
+         ]
+      },
+      "faithSpells" : {
+         "C" : "Recover",
+         "D" : "Heal",
+         "D+" : "Nosferatu"
+      },
       "firstCrest" : "None",
       "fullName" : "Raphael Kirsten",
       "growthRates" : {
@@ -157,6 +377,10 @@
       },
       "house" : "Golden Deer",
       "name" : "Raphael",
+      "reasonSpells" : {
+         "C" : "Bolganone",
+         "D" : "Fire"
+      },
       "secondCrest" : "None"
    },
    {
@@ -170,6 +394,19 @@
             "rel" : "self"
          }
       },
+      "baseSkillLevels" : {
+         "authority" : "E+",
+         "axe" : "E",
+         "bow" : "D",
+         "brawl" : "E",
+         "faith" : "E",
+         "flying" : "E",
+         "heavyArmor" : "E",
+         "lance" : "E",
+         "reason" : "E",
+         "riding" : "E",
+         "sword" : "E+"
+      },
       "baseStats" : {
          "baseCha" : "4",
          "baseDef" : "4",
@@ -182,6 +419,48 @@
          "baseStr" : "8"
       },
       "birthday" : "3/14",
+      "boonsBanesBudding" : {
+         "authority" : "Boon",
+         "axe" : "None",
+         "bow" : "Boon",
+         "brawl" : "None",
+         "budding" : "Reason",
+         "buddingTalent" : "Seal Strength",
+         "faith" : "None",
+         "flying" : "Bane",
+         "heavyArmor" : "None",
+         "lance" : "None",
+         "reason" : "None",
+         "riding" : "None",
+         "sword" : "Boon"
+      },
+      "defaultClasses" : {
+         "beginnerClass" : "Fighter",
+         "intermediateClass" : "Archer",
+         "startingClass" : "Commoner"
+      },
+      "dependentAbilities" : {
+         "A" : "Battalion Vantage",
+         "C" : "Battalion Desperation",
+         "C+" : "Rally Dexterity",
+         "D" : "Rally Speed",
+         "S" : "Rally Strength"
+      },
+      "dependentCombatArts" : {
+         "A" : [
+            "Ward Arrow"
+         ],
+         "C+" : [
+            "Haze Slice",
+            "Break Shot"
+         ]
+      },
+      "faithSpells" : {
+         "B" : "Ward",
+         "C" : "Physic",
+         "D" : "Heal",
+         "D+" : "Nosferatu"
+      },
       "firstCrest" : "None",
       "fullName" : "Ignatz Victor",
       "growthRates" : {
@@ -197,6 +476,11 @@
       },
       "house" : "Golden Deer",
       "name" : "Ignatz",
+      "reasonSpells" : {
+         "A" : "Fimbulvetr",
+         "C" : "Cutting Gale",
+         "D" : "Blizzard"
+      },
       "secondCrest" : "None"
    },
    {
@@ -210,6 +494,19 @@
             "rel" : "self"
          }
       },
+      "baseSkillLevels" : {
+         "authority" : "E+",
+         "axe" : "E",
+         "bow" : "E",
+         "brawl" : "E",
+         "faith" : "E+",
+         "flying" : "E",
+         "heavyArmor" : "E",
+         "lance" : "E",
+         "reason" : "D",
+         "riding" : "E",
+         "sword" : "E"
+      },
       "baseStats" : {
          "baseCha" : "5",
          "baseDef" : "3",
@@ -222,6 +519,37 @@
          "baseStr" : "4"
       },
       "birthday" : "2/28",
+      "boonsBanesBudding" : {
+         "authority" : "Boon",
+         "axe" : "Bane",
+         "bow" : "None",
+         "brawl" : "None",
+         "budding" : "Sword",
+         "buddingTalent" : "Soulblade",
+         "faith" : "Boon",
+         "flying" : "None",
+         "heavyArmor" : "Bane",
+         "lance" : "Bane",
+         "reason" : "Boon",
+         "riding" : "None",
+         "sword" : "Bane"
+      },
+      "defaultClasses" : {
+         "beginnerClass" : "Monk",
+         "intermediateClass" : "Mage",
+         "startingClass" : "Noble"
+      },
+      "dependentAbilities" : {
+         "C" : "Battalion Desperation"
+      },
+      "dependentCombatArts" : {},
+      "faithSpells" : {
+         "A" : "Abraxas",
+         "B" : "Warp",
+         "C" : "Seraphim",
+         "D" : "Heal",
+         "D+" : "Nosferatu"
+      },
       "firstCrest" : "Minor Crest of Charon",
       "fullName" : "Lysithea von Ordelia",
       "growthRates" : {
@@ -237,6 +565,13 @@
       },
       "house" : "Golden Deer",
       "name" : "Lysithea",
+      "reasonSpells" : {
+         "A" : "Hades",
+         "B" : "Dark Spikes",
+         "C" : "Luna",
+         "D" : "Miasma",
+         "D+" : "Swarm"
+      },
       "secondCrest" : "Major Crest of Gloucester"
    },
    {
@@ -250,6 +585,19 @@
             "rel" : "self"
          }
       },
+      "baseSkillLevels" : {
+         "authority" : "E",
+         "axe" : "E",
+         "bow" : "E",
+         "brawl" : "E",
+         "faith" : "D+",
+         "flying" : "E",
+         "heavyArmor" : "E",
+         "lance" : "E",
+         "reason" : "E",
+         "riding" : "E",
+         "sword" : "E+"
+      },
       "baseStats" : {
          "baseCha" : "7",
          "baseDef" : "4",
@@ -262,6 +610,41 @@
          "baseStr" : "5"
       },
       "birthday" : "11/23",
+      "boonsBanesBudding" : {
+         "authority" : "None",
+         "axe" : "None",
+         "bow" : "None",
+         "brawl" : "Bane",
+         "budding" : "Lance",
+         "buddingTalent" : "Frozen Lance",
+         "faith" : "Boon",
+         "flying" : "Boon",
+         "heavyArmor" : "Bane",
+         "lance" : "None",
+         "reason" : "None",
+         "riding" : "Boon",
+         "sword" : "Boon"
+      },
+      "defaultClasses" : {
+         "beginnerClass" : "Monk",
+         "intermediateClass" : "Priest",
+         "startingClass" : "Noble"
+      },
+      "dependentAbilities" : {
+         "C" : "Battalion Renewal"
+      },
+      "dependentCombatArts" : {
+         "C+" : [
+            "Soulblade"
+         ]
+      },
+      "faithSpells" : {
+         "A" : "Aura",
+         "B" : "Silence",
+         "C" : "Physic",
+         "D" : "Heal",
+         "D+" : "Nosferatu"
+      },
       "firstCrest" : "Minor Crest of the Beast",
       "fullName" : "Marianne von Edmund",
       "growthRates" : {
@@ -277,6 +660,12 @@
       },
       "house" : "Golden Deer",
       "name" : "Marianne",
+      "reasonSpells" : {
+         "A" : "Fimbulvetr",
+         "B" : "Cutting Gale",
+         "C" : "Thoron",
+         "D" : "Blizzard"
+      },
       "secondCrest" : "None"
    },
    {
@@ -290,6 +679,19 @@
             "rel" : "self"
          }
       },
+      "baseSkillLevels" : {
+         "authority" : "E",
+         "axe" : "E",
+         "bow" : "E+",
+         "brawl" : "E",
+         "faith" : "E",
+         "flying" : "E",
+         "heavyArmor" : "E",
+         "lance" : "D+",
+         "reason" : "E",
+         "riding" : "E+",
+         "sword" : "E"
+      },
       "baseStats" : {
          "baseCha" : "7",
          "baseDef" : "7",
@@ -302,6 +704,45 @@
          "baseStr" : "9"
       },
       "birthday" : "8/21",
+      "boonsBanesBudding" : {
+         "authority" : "None",
+         "axe" : "None",
+         "bow" : "Boon",
+         "brawl" : "None",
+         "budding" : "None",
+         "buddingTalent" : "None",
+         "faith" : "None",
+         "flying" : "None",
+         "heavyArmor" : "None",
+         "lance" : "Boon",
+         "reason" : "None",
+         "riding" : "Boon",
+         "sword" : "None"
+      },
+      "defaultClasses" : {
+         "beginnerClass" : "Soldier",
+         "intermediateClass" : "Cavalier",
+         "startingClass" : "Commoner"
+      },
+      "dependentAbilities" : {
+         "C" : "Battalion Desperation"
+      },
+      "dependentCombatArts" : {
+         "A" : [
+            "Lance Jab",
+            "Point-Blank Volley"
+         ],
+         "C+" : [
+            "Monster Piercer",
+            "Break Shot"
+         ]
+      },
+      "faithSpells" : {
+         "B" : "Restore",
+         "C" : "Physic",
+         "D" : "Heal",
+         "D+" : "Nosferatu"
+      },
       "firstCrest" : "None",
       "fullName" : "Leonie Pinelli",
       "growthRates" : {
@@ -317,6 +758,11 @@
       },
       "house" : "Golden Deer",
       "name" : "Leonie",
+      "reasonSpells" : {
+         "A" : "Ragnarok",
+         "C" : "Bolganone",
+         "D" : "Fire"
+      },
       "secondCrest" : "None"
    },
    {
@@ -330,6 +776,19 @@
             "rel" : "self"
          }
       },
+      "baseSkillLevels" : {
+         "authority" : "D",
+         "axe" : "E",
+         "bow" : "E",
+         "brawl" : "E",
+         "faith" : "E",
+         "flying" : "E",
+         "heavyArmor" : "E",
+         "lance" : "D+",
+         "reason" : "E",
+         "riding" : "D+",
+         "sword" : "E+"
+      },
       "baseStats" : {
          "baseCha" : "9",
          "baseDef" : "7",
@@ -342,6 +801,48 @@
          "baseStr" : "12"
       },
       "birthday" : "12/20",
+      "boonsBanesBudding" : {
+         "authority" : "Boon",
+         "axe" : "Bane",
+         "bow" : "None",
+         "brawl" : "None",
+         "budding" : "Riding",
+         "buddingTalent" : "Seal Movement",
+         "faith" : "None",
+         "flying" : "None",
+         "heavyArmor" : "None",
+         "lance" : "Boon",
+         "reason" : "Bane",
+         "riding" : "None",
+         "sword" : "Boon"
+      },
+      "defaultClasses" : {
+         "beginnerClass" : "Noble",
+         "intermediateClass" : "Noble",
+         "startingClass" : "Noble"
+      },
+      "dependentAbilities" : {
+         "A" : "Battalion Vantage",
+         "C" : "Battalion Wrath",
+         "C+" : "Model Leader",
+         "S" : "Rally Charm"
+      },
+      "dependentCombatArts" : {
+         "A" : [
+            "Windsweep",
+            "Glowing Ember"
+         ],
+         "C+" : [
+            "Sunder",
+            "Monster Piercer"
+         ]
+      },
+      "faithSpells" : {
+         "A" : "Aura",
+         "C" : "Recover",
+         "D" : "Heal",
+         "D+" : "Nosferatu"
+      },
       "firstCrest" : "Minor Crest of Blaiddyd",
       "fullName" : "Dimitri Alexandre Blaiddyd",
       "growthRates" : {
@@ -357,6 +858,10 @@
       },
       "house" : "Blue Lions",
       "name" : "Dimitri",
+      "reasonSpells" : {
+         "C" : "Thoron",
+         "D" : "Thunder"
+      },
       "secondCrest" : "None"
    },
    {
@@ -370,6 +875,19 @@
             "rel" : "self"
          }
       },
+      "baseSkillLevels" : {
+         "authority" : "E",
+         "axe" : "D+",
+         "bow" : "E",
+         "brawl" : "E+",
+         "faith" : "E",
+         "flying" : "E",
+         "heavyArmor" : "D",
+         "lance" : "E+",
+         "reason" : "E",
+         "riding" : "E",
+         "sword" : "E"
+      },
       "baseStats" : {
          "baseCha" : "4",
          "baseDef" : "8",
@@ -382,6 +900,45 @@
          "baseStr" : "12"
       },
       "birthday" : "8/31",
+      "boonsBanesBudding" : {
+         "authority" : "None",
+         "axe" : "Boon",
+         "bow" : "None",
+         "brawl" : "Boon",
+         "budding" : "None",
+         "buddingTalent" : "None",
+         "faith" : "Bane",
+         "flying" : "Bane",
+         "heavyArmor" : "Boon",
+         "lance" : "Boon",
+         "reason" : "None",
+         "riding" : "Bane",
+         "sword" : "None"
+      },
+      "defaultClasses" : {
+         "beginnerClass" : "Fighter",
+         "intermediateClass" : "Armored Knight",
+         "startingClass" : "Commoner"
+      },
+      "dependentAbilities" : {
+         "C" : "Battalion Wrath"
+      },
+      "dependentCombatArts" : {
+         "A" : [
+            "Armored Strike",
+            "Mighty Blow"
+         ],
+         "C+" : [
+            "Vengeance",
+            "Monster Breaker",
+            "One-Two Punch"
+         ]
+      },
+      "faithSpells" : {
+         "C" : "Recover",
+         "D" : "Heal",
+         "D+" : "Nosferatu"
+      },
       "firstCrest" : "None",
       "fullName" : "Dedue Molinaro",
       "growthRates" : {
@@ -397,6 +954,11 @@
       },
       "house" : "Blue Lions",
       "name" : "Dedue",
+      "reasonSpells" : {
+         "A" : "Ragnarok",
+         "C" : "Bolganone",
+         "D" : "Fire"
+      },
       "secondCrest" : "None"
    },
    {
@@ -410,6 +972,19 @@
             "rel" : "self"
          }
       },
+      "baseSkillLevels" : {
+         "authority" : "E",
+         "axe" : "E",
+         "bow" : "E+",
+         "brawl" : "E+",
+         "faith" : "E",
+         "flying" : "E",
+         "heavyArmor" : "E",
+         "lance" : "E",
+         "reason" : "E",
+         "riding" : "E",
+         "sword" : "D"
+      },
       "baseStats" : {
          "baseCha" : "5",
          "baseDef" : "5",
@@ -422,6 +997,46 @@
          "baseStr" : "10"
       },
       "birthday" : "2/20",
+      "boonsBanesBudding" : {
+         "authority" : "Bane",
+         "axe" : "None",
+         "bow" : "Boon",
+         "brawl" : "Boon",
+         "budding" : "Reason",
+         "buddingTalent" : "Black Magic Crit +10",
+         "faith" : "None",
+         "flying" : "None",
+         "heavyArmor" : "None",
+         "lance" : "None",
+         "reason" : "Bane",
+         "riding" : "None",
+         "sword" : "Boon"
+      },
+      "defaultClasses" : {
+         "beginnerClass" : "Myrmidon",
+         "intermediateClass" : "Mercenary",
+         "startingClass" : "Noble"
+      },
+      "dependentAbilities" : {
+         "C" : "Battalion Vantage"
+      },
+      "dependentCombatArts" : {
+         "A" : [
+            "Finesse Blade",
+            "Mystic Blow"
+         ],
+         "C+" : [
+            "Sunder",
+            "Heavy Draw",
+            "Nimble Combo"
+         ]
+      },
+      "faithSpells" : {
+         "B" : "Restore",
+         "C" : "Recover",
+         "D" : "Heal",
+         "D+" : "Nosferatu"
+      },
       "firstCrest" : "Major Crest of Fraldarius",
       "fullName" : "Felix Hugo Fraldarius",
       "growthRates" : {
@@ -437,6 +1052,10 @@
       },
       "house" : "Blue Lions",
       "name" : "Felix",
+      "reasonSpells" : {
+         "C" : "Thoron",
+         "D" : "Thunder"
+      },
       "secondCrest" : "None"
    },
    {
@@ -450,6 +1069,19 @@
             "rel" : "self"
          }
       },
+      "baseSkillLevels" : {
+         "authority" : "E",
+         "axe" : "E+",
+         "bow" : "D",
+         "brawl" : "E",
+         "faith" : "E",
+         "flying" : "E",
+         "heavyArmor" : "E",
+         "lance" : "E",
+         "reason" : "E",
+         "riding" : "E",
+         "sword" : "E"
+      },
       "baseStats" : {
          "baseCha" : "5",
          "baseDef" : "5",
@@ -462,6 +1094,43 @@
          "baseStr" : "8"
       },
       "birthday" : "10/17",
+      "boonsBanesBudding" : {
+         "authority" : "None",
+         "axe" : "Boon",
+         "bow" : "Boon",
+         "brawl" : "None",
+         "budding" : "Lance",
+         "buddingTalent" : "Shatter Smash",
+         "faith" : "None",
+         "flying" : "None",
+         "heavyArmor" : "None",
+         "lance" : "None",
+         "reason" : "Bane",
+         "riding" : "None",
+         "sword" : "None"
+      },
+      "defaultClasses" : {
+         "beginnerClass" : "Fighter",
+         "intermediateClass" : "Archer",
+         "startingClass" : "Commoner"
+      },
+      "dependentAbilities" : {
+         "C" : "Battalion Desperation"
+      },
+      "dependentCombatArts" : {
+         "A" : [
+            "Waning Shot"
+         ],
+         "C+" : [
+            "Focused Strike",
+            "Deadeye"
+         ]
+      },
+      "faithSpells" : {
+         "C" : "Physic",
+         "D" : "Heal",
+         "D+" : "Nosferatu"
+      },
       "firstCrest" : "None",
       "fullName" : "Ashe Ubert",
       "growthRates" : {
@@ -477,6 +1146,10 @@
       },
       "house" : "Blue Lions",
       "name" : "Ashe",
+      "reasonSpells" : {
+         "C" : "Cutting Gale",
+         "D" : "Wind"
+      },
       "secondCrest" : "None"
    },
    {
@@ -490,6 +1163,19 @@
             "rel" : "self"
          }
       },
+      "baseSkillLevels" : {
+         "authority" : "E",
+         "axe" : "D",
+         "bow" : "E",
+         "brawl" : "E",
+         "faith" : "E",
+         "flying" : "E",
+         "heavyArmor" : "E",
+         "lance" : "D",
+         "reason" : "E",
+         "riding" : "D",
+         "sword" : "E"
+      },
       "baseStats" : {
          "baseCha" : "7",
          "baseDef" : "6",
@@ -502,6 +1188,45 @@
          "baseStr" : "9"
       },
       "birthday" : "6/5",
+      "boonsBanesBudding" : {
+         "authority" : "None",
+         "axe" : "Boon",
+         "bow" : "Bane",
+         "brawl" : "None",
+         "budding" : "Reason",
+         "buddingTalent" : "Black Magic Avoid +20",
+         "faith" : "None",
+         "flying" : "None",
+         "heavyArmor" : "None",
+         "lance" : "Boon",
+         "reason" : "None",
+         "riding" : "Boon",
+         "sword" : "None"
+      },
+      "defaultClasses" : {
+         "beginnerClass" : "Soldier",
+         "intermediateClass" : "Cavalier",
+         "startingClass" : "Noble"
+      },
+      "dependentAbilities" : {
+         "C" : "Battalion Vantage"
+      },
+      "dependentCombatArts" : {
+         "A" : [
+            "Swift Strikes",
+            "Lightning Axe"
+         ],
+         "C+" : [
+            "Monster Piercer",
+            "Spike"
+         ]
+      },
+      "faithSpells" : {
+         "B" : "Seraphim",
+         "C" : "Physic",
+         "D" : "Heal",
+         "D+" : "Nosferatu"
+      },
       "firstCrest" : "Minor Crest of Gautier",
       "fullName" : "Sylvain Jose Gautier",
       "growthRates" : {
@@ -517,6 +1242,12 @@
       },
       "house" : "Blue Lions",
       "name" : "Sylvain",
+      "reasonSpells" : {
+         "A" : "Ragnarok",
+         "B" : "Sagittae",
+         "C" : "Bolganone",
+         "D" : "Fire"
+      },
       "secondCrest" : "None"
    },
    {
@@ -530,6 +1261,19 @@
             "rel" : "self"
          }
       },
+      "baseSkillLevels" : {
+         "authority" : "E",
+         "axe" : "E",
+         "bow" : "E",
+         "brawl" : "E",
+         "faith" : "D",
+         "flying" : "E",
+         "heavyArmor" : "E",
+         "lance" : "E",
+         "reason" : "E+",
+         "riding" : "E",
+         "sword" : "E"
+      },
       "baseStats" : {
          "baseCha" : "8",
          "baseDef" : "5",
@@ -542,6 +1286,37 @@
          "baseStr" : "6"
       },
       "birthday" : "5/27",
+      "boonsBanesBudding" : {
+         "authority" : "None",
+         "axe" : "Bane",
+         "bow" : "None",
+         "brawl" : "None",
+         "budding" : "Bow",
+         "buddingTalent" : "Waning Shot",
+         "faith" : "Boon",
+         "flying" : "None",
+         "heavyArmor" : "Bane",
+         "lance" : "Bane",
+         "reason" : "Boon",
+         "riding" : "None",
+         "sword" : "Bane"
+      },
+      "defaultClasses" : {
+         "beginnerClass" : "Monk",
+         "intermediateClass" : "Priest",
+         "startingClass" : "Commoner"
+      },
+      "dependentAbilities" : {
+         "C" : "Battalion Renewal"
+      },
+      "dependentCombatArts" : {},
+      "faithSpells" : {
+         "A" : "Fortify",
+         "B" : "Restore",
+         "C" : "Physic",
+         "D" : "Heal",
+         "D+" : "Nosferatu"
+      },
       "firstCrest" : "Minor Crest of Lamine",
       "fullName" : "Mercedes von Martritz",
       "growthRates" : {
@@ -557,6 +1332,12 @@
       },
       "house" : "Blue Lions",
       "name" : "Mercedes",
+      "reasonSpells" : {
+         "A" : "Ragnarok",
+         "C" : "Bolganone",
+         "D" : "Fire",
+         "D+" : "Thunder"
+      },
       "secondCrest" : "None"
    },
    {
@@ -570,6 +1351,19 @@
             "rel" : "self"
          }
       },
+      "baseSkillLevels" : {
+         "authority" : "E+",
+         "axe" : "E+",
+         "bow" : "E",
+         "brawl" : "E",
+         "faith" : "E",
+         "flying" : "E",
+         "heavyArmor" : "E",
+         "lance" : "E",
+         "reason" : "D+",
+         "riding" : "E",
+         "sword" : "E"
+      },
       "baseStats" : {
          "baseCha" : "6",
          "baseDef" : "5",
@@ -582,6 +1376,44 @@
          "baseStr" : "6"
       },
       "birthday" : "5/9",
+      "boonsBanesBudding" : {
+         "authority" : "Boon",
+         "axe" : "Boon",
+         "bow" : "Bane",
+         "brawl" : "None",
+         "budding" : "None",
+         "buddingTalent" : "None",
+         "faith" : "None",
+         "flying" : "None",
+         "heavyArmor" : "Bane",
+         "lance" : "None",
+         "reason" : "Boon",
+         "riding" : "None",
+         "sword" : "None"
+      },
+      "defaultClasses" : {
+         "beginnerClass" : "Monk",
+         "intermediateClass" : "Mage",
+         "startingClass" : "Noble"
+      },
+      "dependentAbilities" : {
+         "A" : "Battalion Wrath",
+         "C" : "Battalion Renewal",
+         "C+" : "Rally Speed",
+         "D" : "Rally Resistance",
+         "S" : "Rally Movement"
+      },
+      "dependentCombatArts" : {
+         "C+" : [
+            "Lightning Axe"
+         ]
+      },
+      "faithSpells" : {
+         "A" : "Abraxas",
+         "C" : "Recover",
+         "D" : "Heal",
+         "D+" : "Nosferatu"
+      },
       "firstCrest" : "Minor Crest of Dominic",
       "fullName" : "Annette Fantine Dominic",
       "growthRates" : {
@@ -597,6 +1429,12 @@
       },
       "house" : "Blue Lions",
       "name" : "Annette",
+      "reasonSpells" : {
+         "A" : "Excalibur",
+         "B" : "Sagittae",
+         "C" : "Cutting Gale",
+         "D" : "Wind"
+      },
       "secondCrest" : "None"
    },
    {
@@ -610,6 +1448,19 @@
             "rel" : "self"
          }
       },
+      "baseSkillLevels" : {
+         "authority" : "E",
+         "axe" : "E",
+         "bow" : "E",
+         "brawl" : "E",
+         "faith" : "E",
+         "flying" : "D",
+         "heavyArmor" : "E",
+         "lance" : "D",
+         "reason" : "E",
+         "riding" : "D",
+         "sword" : "E+"
+      },
       "baseStats" : {
          "baseCha" : "8",
          "baseDef" : "5",
@@ -622,6 +1473,45 @@
          "baseStr" : "8"
       },
       "birthday" : "1/4",
+      "boonsBanesBudding" : {
+         "authority" : "None",
+         "axe" : "None",
+         "bow" : "None",
+         "brawl" : "None",
+         "budding" : "None",
+         "buddingTalent" : "None",
+         "faith" : "None",
+         "flying" : "Boon",
+         "heavyArmor" : "None",
+         "lance" : "Boon",
+         "reason" : "None",
+         "riding" : "Boon",
+         "sword" : "Boon"
+      },
+      "defaultClasses" : {
+         "beginnerClass" : "Soldier",
+         "intermediateClass" : "Pegasus Knight",
+         "startingClass" : "Noble"
+      },
+      "dependentAbilities" : {
+         "C" : "Battalion Desperation",
+         "D" : "Rally Magic"
+      },
+      "dependentCombatArts" : {
+         "A" : [
+            "Hexblade",
+            "Frozen Lance"
+         ],
+         "C" : [
+            "Hit and Run"
+         ]
+      },
+      "faithSpells" : {
+         "B" : "Seraphim",
+         "C" : "Physic",
+         "D" : "Heal",
+         "D+" : "Nosferatu"
+      },
       "firstCrest" : "Minor Crest of Daphnel",
       "fullName" : "Ingrid Brandl Galatea",
       "growthRates" : {
@@ -637,6 +1527,11 @@
       },
       "house" : "Blue Lions",
       "name" : "Ingrid",
+      "reasonSpells" : {
+         "A" : "Fimbulvetr",
+         "C" : "Thoron",
+         "D" : "Blizzard"
+      },
       "secondCrest" : "None"
    },
    {
@@ -650,6 +1545,19 @@
             "rel" : "self"
          }
       },
+      "baseSkillLevels" : {
+         "authority" : "D",
+         "axe" : "D",
+         "bow" : "E",
+         "brawl" : "E",
+         "faith" : "E",
+         "flying" : "E",
+         "heavyArmor" : "D",
+         "lance" : "E",
+         "reason" : "E",
+         "riding" : "E",
+         "sword" : "E+"
+      },
       "baseStats" : {
          "baseCha" : "10",
          "baseDef" : "6",
@@ -662,6 +1570,48 @@
          "baseStr" : "13"
       },
       "birthday" : "6/22",
+      "boonsBanesBudding" : {
+         "authority" : "Boon",
+         "axe" : "Boon",
+         "bow" : "Bane",
+         "brawl" : "None",
+         "budding" : "Reason",
+         "buddingTalent" : "Black Magic Crit +10",
+         "faith" : "Bane",
+         "flying" : "None",
+         "heavyArmor" : "Boon",
+         "lance" : "None",
+         "reason" : "None",
+         "riding" : "None",
+         "sword" : "Boon"
+      },
+      "defaultClasses" : {
+         "beginnerClass" : "Noble",
+         "intermediateClass" : "Noble",
+         "startingClass" : "Noble"
+      },
+      "dependentAbilities" : {
+         "A" : "Battalion Renewal",
+         "C" : "Battalion Vantage",
+         "C+" : "Model Leader",
+         "S" : "Rally Charm"
+      },
+      "dependentCombatArts" : {
+         "A" : [
+            "Hexblade",
+            "Lightning Axe"
+         ],
+         "C+" : [
+            "Haze Strike",
+            "Monster Breaker"
+         ]
+      },
+      "faithSpells" : {
+         "B" : "Seraphim",
+         "C" : "Recover",
+         "D" : "Heal",
+         "D+" : "Nosferatu"
+      },
       "firstCrest" : "Minor Crest of Seiros",
       "fullName" : "Edelgard von Hresvelg",
       "growthRates" : {
@@ -677,6 +1627,12 @@
       },
       "house" : "Black Eagles",
       "name" : "Edelgard",
+      "reasonSpells" : {
+         "A" : "Hades",
+         "B" : "Luna",
+         "C" : "Bolganone",
+         "D" : "Fire"
+      },
       "secondCrest" : "Major Crest of Flames"
    },
    {
@@ -690,6 +1646,19 @@
             "rel" : "self"
          }
       },
+      "baseSkillLevels" : {
+         "authority" : "E+",
+         "axe" : "E",
+         "bow" : "E+",
+         "brawl" : "E",
+         "faith" : "E",
+         "flying" : "E",
+         "heavyArmor" : "E",
+         "lance" : "E",
+         "reason" : "D",
+         "riding" : "E",
+         "sword" : "E"
+      },
       "baseStats" : {
          "baseCha" : "6",
          "baseDef" : "4",
@@ -702,6 +1671,46 @@
          "baseStr" : "6"
       },
       "birthday" : "4/17",
+      "boonsBanesBudding" : {
+         "authority" : "Boon",
+         "axe" : "Bane",
+         "bow" : "Boon",
+         "brawl" : "None",
+         "budding" : "Lance",
+         "buddingTalent" : "Frozen Lance",
+         "faith" : "Bane",
+         "flying" : "Bane",
+         "heavyArmor" : "None",
+         "lance" : "None",
+         "reason" : "Boon",
+         "riding" : "None",
+         "sword" : "None"
+      },
+      "defaultClasses" : {
+         "beginnerClass" : "Monk",
+         "intermediateClass" : "Mage",
+         "startingClass" : "Noble"
+      },
+      "dependentAbilities" : {
+         "A" : "Battalion Desperation",
+         "C" : "Battalion Wrath",
+         "C+" : "Rally Resistance",
+         "D" : "Rally Magic",
+         "S" : "Rally Speed"
+      },
+      "dependentCombatArts" : {
+         "A" : [
+            "Schism Shot"
+         ],
+         "C+" : [
+            "Heavy Draw"
+         ]
+      },
+      "faithSpells" : {
+         "C" : "Recover",
+         "D" : "Heal",
+         "D+" : "Nosferatu"
+      },
       "firstCrest" : "None",
       "fullName" : "Hubert von Vestra",
       "growthRates" : {
@@ -717,6 +1726,13 @@
       },
       "house" : "Black Eagles",
       "name" : "Hubert",
+      "reasonSpells" : {
+         "A" : "Dark Spikes",
+         "B" : "Death",
+         "C" : "Banshee",
+         "D" : "Miasma",
+         "D+" : "Mire"
+      },
       "secondCrest" : "None"
    },
    {
@@ -730,6 +1746,19 @@
             "rel" : "self"
          }
       },
+      "baseSkillLevels" : {
+         "authority" : "E",
+         "axe" : "E+",
+         "bow" : "E",
+         "brawl" : "E",
+         "faith" : "E",
+         "flying" : "E",
+         "heavyArmor" : "E",
+         "lance" : "D",
+         "reason" : "E",
+         "riding" : "D",
+         "sword" : "E+"
+      },
       "baseStats" : {
          "baseCha" : "7",
          "baseDef" : "6",
@@ -742,6 +1771,47 @@
          "baseStr" : "8"
       },
       "birthday" : "4/30",
+      "boonsBanesBudding" : {
+         "authority" : "None",
+         "axe" : "Boon",
+         "bow" : "None",
+         "brawl" : "None",
+         "budding" : "HeavyArmor",
+         "buddingTalent" : "Seal Speed",
+         "faith" : "None",
+         "flying" : "None",
+         "heavyArmor" : "None",
+         "lance" : "Boon",
+         "reason" : "None",
+         "riding" : "Boon",
+         "sword" : "Boon"
+      },
+      "defaultClasses" : {
+         "beginnerClass" : "Soldier",
+         "intermediateClass" : "Cavalier",
+         "startingClass" : "Noble"
+      },
+      "dependentAbilities" : {
+         "C" : "Battalion Desperation",
+         "D" : "Rally Dexterity"
+      },
+      "dependentCombatArts" : {
+         "A" : [
+            "Swift Strikes",
+            "Armored Strike"
+         ],
+         "C+" : [
+            "Sunder",
+            "Shatter Slash",
+            "Focused Strike"
+         ]
+      },
+      "faithSpells" : {
+         "B" : "Restore",
+         "C" : "Ward",
+         "D" : "Heal",
+         "D+" : "Nosferatu"
+      },
       "firstCrest" : "Minor Crest of Cichol",
       "fullName" : "Ferdinand von Aegir",
       "growthRates" : {
@@ -757,6 +1827,12 @@
       },
       "house" : "Black Eagles",
       "name" : "Ferdinand",
+      "reasonSpells" : {
+         "B" : "Bolganone",
+         "C" : "Thoron",
+         "D" : "Thunder",
+         "D+" : "Fire"
+      },
       "secondCrest" : "None"
    },
    {
@@ -770,6 +1846,19 @@
             "rel" : "self"
          }
       },
+      "baseSkillLevels" : {
+         "authority" : "E",
+         "axe" : "E",
+         "bow" : "E",
+         "brawl" : "E",
+         "faith" : "D+",
+         "flying" : "E",
+         "heavyArmor" : "E",
+         "lance" : "E",
+         "reason" : "E+",
+         "riding" : "E",
+         "sword" : "E"
+      },
       "baseStats" : {
          "baseCha" : "3",
          "baseDef" : "5",
@@ -782,6 +1871,37 @@
          "baseStr" : "5"
       },
       "birthday" : "11/7",
+      "boonsBanesBudding" : {
+         "authority" : "None",
+         "axe" : "Bane",
+         "bow" : "None",
+         "brawl" : "Bane",
+         "budding" : "None",
+         "buddingTalent" : "None",
+         "faith" : "Boon",
+         "flying" : "None",
+         "heavyArmor" : "None",
+         "lance" : "None",
+         "reason" : "Boon",
+         "riding" : "None",
+         "sword" : "None"
+      },
+      "defaultClasses" : {
+         "beginnerClass" : "Monk",
+         "intermediateClass" : "Priest",
+         "startingClass" : "Noble"
+      },
+      "dependentAbilities" : {
+         "C" : "Battalion Renewal"
+      },
+      "dependentCombatArts" : {},
+      "faithSpells" : {
+         "A" : "Warp",
+         "B" : "Restore",
+         "C" : "Physic",
+         "D" : "Heal",
+         "D+" : "Nosferatu"
+      },
       "firstCrest" : "Minor Crest of Cethleann",
       "fullName" : "Linhardt von Hevring",
       "growthRates" : {
@@ -797,6 +1917,13 @@
       },
       "house" : "Black Eagles",
       "name" : "Linhardt",
+      "reasonSpells" : {
+         "A" : "Excalibur",
+         "B" : "Bolganone",
+         "C" : "Cutting Gale",
+         "D" : "Wind",
+         "D+" : "Fire"
+      },
       "secondCrest" : "None"
    },
    {
@@ -810,6 +1937,19 @@
             "rel" : "self"
          }
       },
+      "baseSkillLevels" : {
+         "authority" : "E",
+         "axe" : "D",
+         "bow" : "E",
+         "brawl" : "E+",
+         "faith" : "E",
+         "flying" : "E",
+         "heavyArmor" : "E",
+         "lance" : "E",
+         "reason" : "E",
+         "riding" : "E",
+         "sword" : "E"
+      },
       "baseStats" : {
          "baseCha" : "4",
          "baseDef" : "6",
@@ -822,6 +1962,44 @@
          "baseStr" : "9"
       },
       "birthday" : "7/1",
+      "boonsBanesBudding" : {
+         "authority" : "Bane",
+         "axe" : "Boon",
+         "bow" : "Bane",
+         "brawl" : "Boon",
+         "budding" : "None",
+         "buddingTalent" : "None",
+         "faith" : "None",
+         "flying" : "None",
+         "heavyArmor" : "None",
+         "lance" : "None",
+         "reason" : "Bane",
+         "riding" : "None",
+         "sword" : "None"
+      },
+      "defaultClasses" : {
+         "beginnerClass" : "Fighter",
+         "intermediateClass" : "Brigand",
+         "startingClass" : "Noble"
+      },
+      "dependentAbilities" : {
+         "C" : "Battalion Wrath"
+      },
+      "dependentCombatArts" : {
+         "A" : [
+            "Exhaustive Strike",
+            "Mighty Blow"
+         ],
+         "C+" : [
+            "Wild Abandon",
+            "Bombard"
+         ]
+      },
+      "faithSpells" : {
+         "C" : "Recover",
+         "D" : "Heal",
+         "D+" : "Nosferatu"
+      },
       "firstCrest" : "None",
       "fullName" : "Caspar von Bergliez",
       "growthRates" : {
@@ -837,6 +2015,10 @@
       },
       "house" : "Black Eagles",
       "name" : "Caspar",
+      "reasonSpells" : {
+         "C" : "Bolganone",
+         "D" : "Fire"
+      },
       "secondCrest" : "None"
    },
    {
@@ -850,6 +2032,19 @@
             "rel" : "self"
          }
       },
+      "baseSkillLevels" : {
+         "authority" : "E",
+         "axe" : "E",
+         "bow" : "D",
+         "brawl" : "E",
+         "faith" : "E",
+         "flying" : "E",
+         "heavyArmor" : "E",
+         "lance" : "E+",
+         "reason" : "E",
+         "riding" : "E",
+         "sword" : "E"
+      },
       "baseStats" : {
          "baseCha" : "6",
          "baseDef" : "4",
@@ -862,6 +2057,44 @@
          "baseStr" : "8"
       },
       "birthday" : "12/12",
+      "boonsBanesBudding" : {
+         "authority" : "None",
+         "axe" : "Bane",
+         "bow" : "Boon",
+         "brawl" : "Bane",
+         "budding" : "Riding",
+         "buddingTalent" : "Pass",
+         "faith" : "None",
+         "flying" : "None",
+         "heavyArmor" : "Bane",
+         "lance" : "Boon",
+         "reason" : "None",
+         "riding" : "None",
+         "sword" : "Bane"
+      },
+      "defaultClasses" : {
+         "beginnerClass" : "Fighter",
+         "intermediateClass" : "Archer",
+         "startingClass" : "Noble"
+      },
+      "dependentAbilities" : {
+         "C" : "Battalion Wrath"
+      },
+      "dependentCombatArts" : {
+         "A" : [
+            "Encloser"
+         ],
+         "C+" : [
+            "Vengeance",
+            "Deadeye"
+         ]
+      },
+      "faithSpells" : {
+         "A" : "Rescue",
+         "C" : "Physic",
+         "D" : "Heal",
+         "D+" : "Nosferatu"
+      },
       "firstCrest" : "Minor Crest of Indech",
       "fullName" : "Bernadetta von Varley",
       "growthRates" : {
@@ -877,6 +2110,12 @@
       },
       "house" : "Black Eagles",
       "name" : "Bernadetta",
+      "reasonSpells" : {
+         "A" : "Fimbulvetr",
+         "C" : "Thoron",
+         "D" : "Blizzard",
+         "D+" : "Thunder"
+      },
       "secondCrest" : "None"
    },
    {
@@ -890,6 +2129,19 @@
             "rel" : "self"
          }
       },
+      "baseSkillLevels" : {
+         "authority" : "E",
+         "axe" : "E",
+         "bow" : "E",
+         "brawl" : "E",
+         "faith" : "E",
+         "flying" : "E",
+         "heavyArmor" : "E",
+         "lance" : "E",
+         "reason" : "D",
+         "riding" : "E",
+         "sword" : "E+"
+      },
       "baseStats" : {
          "baseCha" : "8",
          "baseDef" : "4",
@@ -902,6 +2154,40 @@
          "baseStr" : "5"
       },
       "birthday" : "9/29",
+      "boonsBanesBudding" : {
+         "authority" : "None",
+         "axe" : "None",
+         "bow" : "None",
+         "brawl" : "None",
+         "budding" : "Faith",
+         "buddingTalent" : "White Magic Avoid +20",
+         "faith" : "Bane",
+         "flying" : "Bane",
+         "heavyArmor" : "None",
+         "lance" : "None",
+         "reason" : "Boon",
+         "riding" : "Bane",
+         "sword" : "Boon"
+      },
+      "defaultClasses" : {
+         "beginnerClass" : "Monk",
+         "intermediateClass" : "Mage",
+         "startingClass" : "Commoner"
+      },
+      "dependentAbilities" : {
+         "C" : "Battalion Desperation",
+         "D" : "Rally Charm"
+      },
+      "dependentCombatArts" : {
+         "C+" : [
+            "Hexblade"
+         ]
+      },
+      "faithSpells" : {
+         "C" : "Physic",
+         "D" : "Heal",
+         "D+" : "Nosferatu"
+      },
       "firstCrest" : "None",
       "fullName" : "Dorothea Arnault",
       "growthRates" : {
@@ -917,6 +2203,13 @@
       },
       "house" : "Black Eagles",
       "name" : "Dorothea",
+      "reasonSpells" : {
+         "A" : "Meteor",
+         "A+" : "Agnea's Arrow",
+         "B" : "Sagittae",
+         "C" : "Thoron",
+         "D" : "Thunder"
+      },
       "secondCrest" : "None"
    },
    {
@@ -930,6 +2223,19 @@
             "rel" : "self"
          }
       },
+      "baseSkillLevels" : {
+         "authority" : "E",
+         "axe" : "E+",
+         "bow" : "E+",
+         "brawl" : "E",
+         "faith" : "E",
+         "flying" : "D",
+         "heavyArmor" : "E",
+         "lance" : "E",
+         "reason" : "E",
+         "riding" : "E",
+         "sword" : "D+"
+      },
       "baseStats" : {
          "baseCha" : "6",
          "baseDef" : "5",
@@ -942,6 +2248,45 @@
          "baseStr" : "9"
       },
       "birthday" : "9/7",
+      "boonsBanesBudding" : {
+         "authority" : "None",
+         "axe" : "Boon",
+         "bow" : "Boon",
+         "brawl" : "None",
+         "budding" : "None",
+         "buddingTalent" : "None",
+         "faith" : "Bane",
+         "flying" : "Boon",
+         "heavyArmor" : "None",
+         "lance" : "None",
+         "reason" : "Bane",
+         "riding" : "None",
+         "sword" : "Boon"
+      },
+      "defaultClasses" : {
+         "beginnerClass" : "Myrmidon",
+         "intermediateClass" : "Thief",
+         "startingClass" : "Commoner"
+      },
+      "dependentAbilities" : {
+         "C" : "Battalion Wrath"
+      },
+      "dependentCombatArts" : {
+         "A" : [
+            "Finesse Blade",
+            "Diamond Axe"
+         ],
+         "C+" : [
+            "Bane of Monsters",
+            "Wild Abandon",
+            "Waning Shot"
+         ]
+      },
+      "faithSpells" : {
+         "C" : "Restore",
+         "D" : "Heal",
+         "D+" : "Nosferatu"
+      },
       "firstCrest" : "None",
       "fullName" : "Petra Macneary",
       "growthRates" : {
@@ -957,6 +2302,10 @@
       },
       "house" : "Black Eagles",
       "name" : "Petra",
+      "reasonSpells" : {
+         "C" : "Sagittae",
+         "D" : "Wind"
+      },
       "secondCrest" : "None"
    },
    {
@@ -970,6 +2319,19 @@
             "rel" : "self"
          }
       },
+      "baseSkillLevels" : {
+         "authority" : "B",
+         "axe" : "E",
+         "bow" : "E",
+         "brawl" : "D+",
+         "faith" : "E",
+         "flying" : "E",
+         "heavyArmor" : "E",
+         "lance" : "A",
+         "reason" : "E",
+         "riding" : "B",
+         "sword" : "B"
+      },
       "baseStats" : {
          "baseCha" : "3",
          "baseDef" : "7",
@@ -982,6 +2344,46 @@
          "baseStr" : "8"
       },
       "birthday" : "3/4",
+      "boonsBanesBudding" : {
+         "authority" : "Bane",
+         "axe" : "None",
+         "bow" : "None",
+         "brawl" : "Boon",
+         "budding" : "Flying",
+         "buddingTalent" : "Darting Blow",
+         "faith" : "Bane",
+         "flying" : "None",
+         "heavyArmor" : "None",
+         "lance" : "Boon",
+         "reason" : "None",
+         "riding" : "Boon",
+         "sword" : "Boon"
+      },
+      "defaultClasses" : {
+         "beginnerClass" : "Death Knight",
+         "intermediateClass" : "Death Knight",
+         "startingClass" : "Death Knight"
+      },
+      "dependentAbilities" : {
+         "C" : "Battalion Desperation",
+         "E+" : "Mastermind"
+      },
+      "dependentCombatArts" : {
+         "A" : [
+            "Windsweep",
+            "Glowing Ember"
+         ],
+         "C+" : [
+            "Haze Slice",
+            "Nimble Combo",
+            "Shatter Slash"
+         ]
+      },
+      "faithSpells" : {
+         "C" : "Restore",
+         "D" : "Heal",
+         "D+" : "Nosferatu"
+      },
       "firstCrest" : "Minor Crest of Lamine",
       "fullName" : "Jeritza von Hrym",
       "growthRates" : {
@@ -997,6 +2399,11 @@
       },
       "house" : "Church of Seiros",
       "name" : "Jeritza",
+      "reasonSpells" : {
+         "B" : "Death",
+         "C" : "Thoron",
+         "D" : "Thunder"
+      },
       "secondCrest" : "None"
    },
    {
@@ -1010,6 +2417,19 @@
             "rel" : "self"
          }
       },
+      "baseSkillLevels" : {
+         "authority" : "D",
+         "axe" : "E",
+         "bow" : "E",
+         "brawl" : "E+",
+         "faith" : "E",
+         "flying" : "E",
+         "heavyArmor" : "E",
+         "lance" : "E",
+         "reason" : "E",
+         "riding" : "E",
+         "sword" : "D+"
+      },
       "baseStats" : {
          "baseCha" : "7",
          "baseDef" : "6",
@@ -1022,6 +2442,48 @@
          "baseStr" : "13"
       },
       "birthday" : "n/a",
+      "boonsBanesBudding" : {
+         "authority" : "Boon",
+         "axe" : "None",
+         "bow" : "None",
+         "brawl" : "Boon",
+         "budding" : "Faith",
+         "buddingTalent" : "White Magic Avoid +20",
+         "faith" : "None",
+         "flying" : "None",
+         "heavyArmor" : "None",
+         "lance" : "None",
+         "reason" : "None",
+         "riding" : "None",
+         "sword" : "Boon"
+      },
+      "defaultClasses" : {
+         "beginnerClass" : "Commoner",
+         "intermediateClass" : "Commoner",
+         "startingClass" : "Commoner"
+      },
+      "dependentAbilities" : {
+         "A" : "Battalion Desperation",
+         "C" : "Battalion Vantage",
+         "C+" : "Model Leader",
+         "S" : "Rally Movement"
+      },
+      "dependentCombatArts" : {
+         "A" : [
+            "Windsweep",
+            "Mystic Blow"
+         ],
+         "C+" : [
+            "Bane of Monsters",
+            "Draining Blow"
+         ]
+      },
+      "faithSpells" : {
+         "A" : "Aura",
+         "C" : "Recover",
+         "D" : "Heal",
+         "D+" : "Nosferatu"
+      },
       "firstCrest" : "Major Crest of Flames",
       "fullName" : "Byleth Eisner",
       "growthRates" : {
@@ -1037,6 +2499,12 @@
       },
       "house" : "Church of Seiros",
       "name" : "Byleth",
+      "reasonSpells" : {
+         "A" : "Ragnarok",
+         "C" : "Bolganone",
+         "D" : "Fire",
+         "D+" : "Thunder"
+      },
       "secondCrest" : "None"
    },
    {
@@ -1050,6 +2518,19 @@
             "rel" : "self"
          }
       },
+      "baseSkillLevels" : {
+         "authority" : "C",
+         "axe" : "C",
+         "bow" : "E",
+         "brawl" : "E",
+         "faith" : "E",
+         "flying" : "C",
+         "heavyArmor" : "E",
+         "lance" : "C",
+         "reason" : "E",
+         "riding" : "E",
+         "sword" : "D+"
+      },
       "baseStats" : {
          "baseCha" : "9",
          "baseDef" : "6",
@@ -1062,6 +2543,49 @@
          "baseStr" : "9"
       },
       "birthday" : "12/27",
+      "boonsBanesBudding" : {
+         "authority" : "Boon",
+         "axe" : "Boon",
+         "bow" : "None",
+         "brawl" : "None",
+         "budding" : "None",
+         "buddingTalent" : "None",
+         "faith" : "None",
+         "flying" : "Boon",
+         "heavyArmor" : "None",
+         "lance" : "Boon",
+         "reason" : "None",
+         "riding" : "Bane",
+         "sword" : "Boon"
+      },
+      "defaultClasses" : {
+         "beginnerClass" : "Wyvern Rider",
+         "intermediateClass" : "Wyvern Rider",
+         "startingClass" : "Wyvern Rider"
+      },
+      "dependentAbilities" : {
+         "A" : "Battalion Desperation",
+         "C" : "Battalion Wrath",
+         "C+" : "Model Leader",
+         "D" : "Rally Defense",
+         "S" : "Rally Resistance"
+      },
+      "dependentCombatArts" : {
+         "A" : [
+            "Diamond Axe",
+            "Swift Strikes"
+         ],
+         "C+" : [
+            "Haze Slice",
+            "Focused Strike",
+            "Monster Piercer"
+         ]
+      },
+      "faithSpells" : {
+         "C" : "Recover",
+         "D" : "Heal",
+         "D+" : "Nosferatu"
+      },
       "firstCrest" : "Major Crest of Cichol",
       "fullName" : "Seteth",
       "growthRates" : {
@@ -1077,6 +2601,12 @@
       },
       "house" : "Church of Seiros",
       "name" : "Seteth",
+      "reasonSpells" : {
+         "A" : "Excalibur",
+         "B" : "Bolganone",
+         "C" : "Cutting Gale",
+         "D" : "Wind"
+      },
       "secondCrest" : "None"
    },
    {
@@ -1090,6 +2620,19 @@
             "rel" : "self"
          }
       },
+      "baseSkillLevels" : {
+         "authority" : "E",
+         "axe" : "E",
+         "bow" : "E",
+         "brawl" : "E",
+         "faith" : "D+",
+         "flying" : "D",
+         "heavyArmor" : "E",
+         "lance" : "E+",
+         "reason" : "E",
+         "riding" : "E",
+         "sword" : "E"
+      },
       "baseStats" : {
          "baseCha" : "9",
          "baseDef" : "5",
@@ -1102,6 +2645,45 @@
          "baseStr" : "6"
       },
       "birthday" : "7/12",
+      "boonsBanesBudding" : {
+         "authority" : "None",
+         "axe" : "None",
+         "bow" : "None",
+         "brawl" : "None",
+         "budding" : "Reason",
+         "buddingTalent" : "Seal Magic",
+         "faith" : "Boon",
+         "flying" : "None",
+         "heavyArmor" : "Bane",
+         "lance" : "Boon",
+         "reason" : "None",
+         "riding" : "Bane",
+         "sword" : "None"
+      },
+      "defaultClasses" : {
+         "beginnerClass" : "Priest",
+         "intermediateClass" : "Priest",
+         "startingClass" : "Priest"
+      },
+      "dependentAbilities" : {
+         "C" : "Battalion Renewal",
+         "D" : "Rally Luck"
+      },
+      "dependentCombatArts" : {
+         "A" : [
+            "Frozen Lance"
+         ],
+         "C+" : [
+            "Hit and Run"
+         ]
+      },
+      "faithSpells" : {
+         "A" : "Fortify",
+         "B" : "Rescue",
+         "C" : "Restore",
+         "D" : "Heal",
+         "D+" : "Nosferatu"
+      },
       "firstCrest" : "Major Crest of Cethleann",
       "fullName" : "Flayn",
       "growthRates" : {
@@ -1117,6 +2699,12 @@
       },
       "house" : "Church of Seiros",
       "name" : "Flayn",
+      "reasonSpells" : {
+         "A" : "Excalibur",
+         "C" : "Cutting Gale",
+         "D" : "Wind",
+         "D+" : "Fire"
+      },
       "secondCrest" : "None"
    },
    {
@@ -1130,6 +2718,19 @@
             "rel" : "self"
          }
       },
+      "baseSkillLevels" : {
+         "authority" : "D",
+         "axe" : "E",
+         "bow" : "D",
+         "brawl" : "E",
+         "faith" : "E",
+         "flying" : "E",
+         "heavyArmor" : "E",
+         "lance" : "E",
+         "reason" : "C",
+         "riding" : "D",
+         "sword" : "E"
+      },
       "baseStats" : {
          "baseCha" : "5",
          "baseDef" : "5",
@@ -1142,6 +2743,43 @@
          "baseStr" : "6"
       },
       "birthday" : "2/8",
+      "boonsBanesBudding" : {
+         "authority" : "None",
+         "axe" : "None",
+         "bow" : "Boon",
+         "brawl" : "None",
+         "budding" : "None",
+         "buddingTalent" : "None",
+         "faith" : "None",
+         "flying" : "Bane",
+         "heavyArmor" : "Bane",
+         "lance" : "None",
+         "reason" : "Boon",
+         "riding" : "Boon",
+         "sword" : "None"
+      },
+      "defaultClasses" : {
+         "beginnerClass" : "Mage",
+         "intermediateClass" : "Mage",
+         "startingClass" : "Mage"
+      },
+      "dependentAbilities" : {
+         "C" : "Battalion Desperation"
+      },
+      "dependentCombatArts" : {
+         "A" : [
+            "Ward Arrow"
+         ],
+         "C+" : [
+            "Schism Shot"
+         ]
+      },
+      "faithSpells" : {
+         "B" : "Ward",
+         "C" : "Recover",
+         "D" : "Heal",
+         "D+" : "Nosferatu"
+      },
       "firstCrest" : "Minor Crest of Indech",
       "fullName" : "Hanneman von Essar",
       "growthRates" : {
@@ -1157,6 +2795,13 @@
       },
       "house" : "Church of Seiros",
       "name" : "Hanneman",
+      "reasonSpells" : {
+         "A" : "Ragnarok",
+         "A+" : "Meteor",
+         "B" : "Thoron",
+         "C" : "Sagittae",
+         "D" : "Wind"
+      },
       "secondCrest" : "None"
    },
    {
@@ -1170,6 +2815,19 @@
             "rel" : "self"
          }
       },
+      "baseSkillLevels" : {
+         "authority" : "E",
+         "axe" : "E",
+         "bow" : "E",
+         "brawl" : "E",
+         "faith" : "C",
+         "flying" : "D",
+         "heavyArmor" : "E",
+         "lance" : "E",
+         "reason" : "E",
+         "riding" : "E",
+         "sword" : "D"
+      },
       "baseStats" : {
          "baseCha" : "7",
          "baseDef" : "5",
@@ -1182,6 +2840,42 @@
          "baseStr" : "10"
       },
       "birthday" : "8/3",
+      "boonsBanesBudding" : {
+         "authority" : "None",
+         "axe" : "None",
+         "bow" : "None",
+         "brawl" : "None",
+         "budding" : "None",
+         "buddingTalent" : "None",
+         "faith" : "Boon",
+         "flying" : "Boon",
+         "heavyArmor" : "Bane",
+         "lance" : "None",
+         "reason" : "Bane",
+         "riding" : "None",
+         "sword" : "Boon"
+      },
+      "defaultClasses" : {
+         "beginnerClass" : "Priest",
+         "intermediateClass" : "Priest",
+         "startingClass" : "Priest"
+      },
+      "dependentAbilities" : {
+         "C" : "Battalion Renewal",
+         "D" : "Rally Charm"
+      },
+      "dependentCombatArts" : {
+         "C+" : [
+            "Hexblade"
+         ]
+      },
+      "faithSpells" : {
+         "A" : "Warp",
+         "B" : "Silence",
+         "C" : "Ward",
+         "D" : "Heal",
+         "D+" : "Nosferatu"
+      },
       "firstCrest" : "None",
       "fullName" : "Manuela Casagranda",
       "growthRates" : {
@@ -1197,6 +2891,11 @@
       },
       "house" : "Church of Seiros",
       "name" : "Manuela",
+      "reasonSpells" : {
+         "A" : "Bolting",
+         "C" : "Bolganone",
+         "D" : "Thunder"
+      },
       "secondCrest" : "None"
    },
    {
@@ -1210,6 +2909,19 @@
             "rel" : "self"
          }
       },
+      "baseSkillLevels" : {
+         "authority" : "D+",
+         "axe" : "C",
+         "bow" : "E",
+         "brawl" : "E",
+         "faith" : "E",
+         "flying" : "E",
+         "heavyArmor" : "D",
+         "lance" : "C",
+         "reason" : "E",
+         "riding" : "C",
+         "sword" : "E"
+      },
       "baseStats" : {
          "baseCha" : "6",
          "baseDef" : "5",
@@ -1222,6 +2934,44 @@
          "baseStr" : "9"
       },
       "birthday" : "1/26",
+      "boonsBanesBudding" : {
+         "authority" : "None",
+         "axe" : "Boon",
+         "bow" : "None",
+         "brawl" : "None",
+         "budding" : "None",
+         "buddingTalent" : "None",
+         "faith" : "None",
+         "flying" : "None",
+         "heavyArmor" : "Boon",
+         "lance" : "Boon",
+         "reason" : "None",
+         "riding" : "Boon",
+         "sword" : "None"
+      },
+      "defaultClasses" : {
+         "beginnerClass" : "Fortress Knight",
+         "intermediateClass" : "Fortress Knight",
+         "startingClass" : "Fortress Knight"
+      },
+      "dependentAbilities" : {
+         "C" : "Battalion Wrath",
+         "D" : "Rally Defense"
+      },
+      "dependentCombatArts" : {
+         "A" : [
+            "Glowing Ember"
+         ],
+         "C+" : [
+            "Shatter Slash",
+            "Spike"
+         ]
+      },
+      "faithSpells" : {
+         "C" : "Ward",
+         "D" : "Heal",
+         "D+" : "Nosferatu"
+      },
       "firstCrest" : "None",
       "fullName" : "Gilbert Pronislav",
       "growthRates" : {
@@ -1237,6 +2987,10 @@
       },
       "house" : "Church of Seiros",
       "name" : "Gilbert",
+      "reasonSpells" : {
+         "C" : "Thoron",
+         "D" : "Thunder"
+      },
       "secondCrest" : "None"
    },
    {
@@ -1250,6 +3004,19 @@
             "rel" : "self"
          }
       },
+      "baseSkillLevels" : {
+         "authority" : "C",
+         "axe" : "C",
+         "bow" : "E",
+         "brawl" : "D+",
+         "faith" : "E",
+         "flying" : "E",
+         "heavyArmor" : "C",
+         "lance" : "E",
+         "reason" : "E",
+         "riding" : "E",
+         "sword" : "E"
+      },
       "baseStats" : {
          "baseCha" : "7",
          "baseDef" : "5",
@@ -1262,6 +3029,45 @@
          "baseStr" : "9"
       },
       "birthday" : "12/1",
+      "boonsBanesBudding" : {
+         "authority" : "None",
+         "axe" : "Boon",
+         "bow" : "None",
+         "brawl" : "Boon",
+         "budding" : "None",
+         "buddingTalent" : "None",
+         "faith" : "None",
+         "flying" : "Bane",
+         "heavyArmor" : "Boon",
+         "lance" : "None",
+         "reason" : "Bane",
+         "riding" : "None",
+         "sword" : "None"
+      },
+      "defaultClasses" : {
+         "beginnerClass" : "Warrior",
+         "intermediateClass" : "Warrior",
+         "startingClass" : "Warrior"
+      },
+      "dependentAbilities" : {
+         "C" : "Battalion Wrath",
+         "D" : "Rally Strength"
+      },
+      "dependentCombatArts" : {
+         "A" : [
+            "Exhaustive Strike",
+            "Might Blow"
+         ],
+         "C+" : [
+            "Spike",
+            "One-Two Punch"
+         ]
+      },
+      "faithSpells" : {
+         "C" : "Recover",
+         "D" : "Heal",
+         "D+" : "Nosferatu"
+      },
       "firstCrest" : "None",
       "fullName" : "Alois Rangeld",
       "growthRates" : {
@@ -1277,6 +3083,10 @@
       },
       "house" : "Church of Seiros",
       "name" : "Alois",
+      "reasonSpells" : {
+         "C" : "Bolganone",
+         "D" : "Fire"
+      },
       "secondCrest" : "None"
    },
    {
@@ -1290,6 +3100,19 @@
             "rel" : "self"
          }
       },
+      "baseSkillLevels" : {
+         "authority" : "D",
+         "axe" : "E",
+         "bow" : "E",
+         "brawl" : "D+",
+         "faith" : "E",
+         "flying" : "E",
+         "heavyArmor" : "E",
+         "lance" : "E",
+         "reason" : "E",
+         "riding" : "E",
+         "sword" : "B"
+      },
       "baseStats" : {
          "baseCha" : "4",
          "baseDef" : "5",
@@ -1302,6 +3125,44 @@
          "baseStr" : "8"
       },
       "birthday" : "9/15",
+      "boonsBanesBudding" : {
+         "authority" : "None",
+         "axe" : "None",
+         "bow" : "None",
+         "brawl" : "Boon",
+         "budding" : "None",
+         "buddingTalent" : "None",
+         "faith" : "None",
+         "flying" : "None",
+         "heavyArmor" : "None",
+         "lance" : "None",
+         "reason" : "Bane",
+         "riding" : "None",
+         "sword" : "Boon"
+      },
+      "defaultClasses" : {
+         "beginnerClass" : "Swordmaster",
+         "intermediateClass" : "Swordmaster",
+         "startingClass" : "Swordmaster"
+      },
+      "dependentAbilities" : {
+         "C" : "Battalion Vantage"
+      },
+      "dependentCombatArts" : {
+         "A" : [
+            "Finesse Blade",
+            "Bombard"
+         ],
+         "C+" : [
+            "Bane of Monsters",
+            "Nimble Combo"
+         ]
+      },
+      "faithSpells" : {
+         "C" : "Recover",
+         "D" : "Heal",
+         "D+" : "Nosferatu"
+      },
       "firstCrest" : "Major Crest of Charon",
       "fullName" : "Catherine",
       "growthRates" : {
@@ -1317,6 +3178,11 @@
       },
       "house" : "Church of Seiros",
       "name" : "Catherine",
+      "reasonSpells" : {
+         "A" : "Ragnarok",
+         "C" : "Bolganone",
+         "D" : "Fire"
+      },
       "secondCrest" : "None"
    },
    {
@@ -1330,6 +3196,19 @@
             "rel" : "self"
          }
       },
+      "baseSkillLevels" : {
+         "authority" : "D",
+         "axe" : "E",
+         "bow" : "B",
+         "brawl" : "E",
+         "faith" : "E",
+         "flying" : "E",
+         "heavyArmor" : "E",
+         "lance" : "D+",
+         "reason" : "E",
+         "riding" : "E",
+         "sword" : "E"
+      },
       "baseStats" : {
          "baseCha" : "6",
          "baseDef" : "5",
@@ -1342,6 +3221,44 @@
          "baseStr" : "8"
       },
       "birthday" : "3/27",
+      "boonsBanesBudding" : {
+         "authority" : "None",
+         "axe" : "None",
+         "bow" : "Boon",
+         "brawl" : "None",
+         "budding" : "None",
+         "buddingTalent" : "None",
+         "faith" : "Bane",
+         "flying" : "None",
+         "heavyArmor" : "None",
+         "lance" : "Boon",
+         "reason" : "None",
+         "riding" : "None",
+         "sword" : "None"
+      },
+      "defaultClasses" : {
+         "beginnerClass" : "Sniper",
+         "intermediateClass" : "Sniper",
+         "startingClass" : "Sniper"
+      },
+      "dependentAbilities" : {
+         "C" : "Battalion Desperation"
+      },
+      "dependentCombatArts" : {
+         "A" : [
+            "Lance Jab",
+            "Monster Blast"
+         ],
+         "C+" : [
+            "Hit and Run",
+            "Heavy Draw"
+         ]
+      },
+      "faithSpells" : {
+         "C" : "Physic",
+         "D" : "Heal",
+         "D+" : "Nosferatu"
+      },
       "firstCrest" : "None",
       "fullName" : "Shamir Nevrand",
       "growthRates" : {
@@ -1357,6 +3274,12 @@
       },
       "house" : "Church of Seiros",
       "name" : "Shamir",
+      "reasonSpells" : {
+         "A" : "Fimbulvetr",
+         "C" : "Sagittae",
+         "D" : "Blizzard",
+         "D+" : "Wind"
+      },
       "secondCrest" : "None"
    },
    {
@@ -1370,6 +3293,19 @@
             "rel" : "self"
          }
       },
+      "baseSkillLevels" : {
+         "authority" : "E",
+         "axe" : "D+",
+         "bow" : "D",
+         "brawl" : "E",
+         "faith" : "E",
+         "flying" : "E",
+         "heavyArmor" : "E",
+         "lance" : "E",
+         "reason" : "E",
+         "riding" : "E",
+         "sword" : "E"
+      },
       "baseStats" : {
          "baseCha" : "4",
          "baseDef" : "5",
@@ -1382,6 +3318,45 @@
          "baseStr" : "7"
       },
       "birthday" : "10/25",
+      "boonsBanesBudding" : {
+         "authority" : "None",
+         "axe" : "Boon",
+         "bow" : "Boon",
+         "brawl" : "None",
+         "budding" : "None",
+         "buddingTalent" : "None",
+         "faith" : "Bane",
+         "flying" : "Boon",
+         "heavyArmor" : "None",
+         "lance" : "Boon",
+         "reason" : "Bane",
+         "riding" : "Boon",
+         "sword" : "None"
+      },
+      "defaultClasses" : {
+         "beginnerClass" : "Commoner",
+         "intermediateClass" : "Commoner",
+         "startingClass" : "Commoner"
+      },
+      "dependentAbilities" : {
+         "C" : "Battalion Desperation"
+      },
+      "dependentCombatArts" : {
+         "A" : [
+            "Lance Jab",
+            "Armored Strike"
+         ],
+         "C+" : [
+            "Vengeance",
+            "Monster Breaker",
+            "Point-Blank Volley"
+         ]
+      },
+      "faithSpells" : {
+         "C" : "Recover",
+         "D" : "Heal",
+         "D+" : "Nosferatu"
+      },
       "firstCrest" : "None",
       "fullName" : "Cyril",
       "growthRates" : {
@@ -1397,6 +3372,10 @@
       },
       "house" : "Church of Seiros",
       "name" : "Cyril",
+      "reasonSpells" : {
+         "C" : "Cutting Gale",
+         "D" : "Wind"
+      },
       "secondCrest" : "None"
    },
    {
@@ -1410,6 +3389,19 @@
             "rel" : "self"
          }
       },
+      "baseSkillLevels" : {
+         "authority" : "E",
+         "axe" : "E+",
+         "bow" : "E+",
+         "brawl" : "E",
+         "faith" : "E+",
+         "flying" : "E",
+         "heavyArmor" : "E",
+         "lance" : "E",
+         "reason" : "E",
+         "riding" : "E",
+         "sword" : "D"
+      },
       "baseStats" : {
          "baseCha" : "7",
          "baseDef" : "5",
@@ -1422,6 +3414,47 @@
          "baseStr" : "7"
       },
       "birthday" : "6/9",
+      "boonsBanesBudding" : {
+         "authority" : "Bane",
+         "axe" : "Boon",
+         "bow" : "Boon",
+         "brawl" : "None",
+         "budding" : "Riding",
+         "buddingTalent" : "Pass",
+         "faith" : "Boon",
+         "flying" : "None",
+         "heavyArmor" : "None",
+         "lance" : "None",
+         "reason" : "Bane",
+         "riding" : "None",
+         "sword" : "Boon"
+      },
+      "defaultClasses" : {
+         "beginnerClass" : "Myrmidon",
+         "intermediateClass" : "Thief",
+         "startingClass" : "Commoner"
+      },
+      "dependentAbilities" : {
+         "C" : "Battalion Vantage",
+         "D" : "Rally Luck"
+      },
+      "dependentCombatArts" : {
+         "A" : [
+            "Hexblade",
+            "Armored Strike"
+         ],
+         "C+" : [
+            "Soulblade",
+            "Break Shot",
+            "Spike"
+         ]
+      },
+      "faithSpells" : {
+         "B" : "Rescue",
+         "C" : "Ward",
+         "D" : "Heal",
+         "D+" : "Nosferatu"
+      },
       "firstCrest" : "Major Crest of Ernest",
       "fullName" : "Anna",
       "growthRates" : {
@@ -1437,6 +3470,11 @@
       },
       "house" : "Church of Seiros",
       "name" : "Anna",
+      "reasonSpells" : {
+         "A" : "Meteor",
+         "D" : "Fire",
+         "D+" : "Thunder"
+      },
       "secondCrest" : "None"
    },
    {
@@ -1450,6 +3488,19 @@
             "rel" : "self"
          }
       },
+      "baseSkillLevels" : {
+         "authority" : "D",
+         "axe" : "E",
+         "bow" : "E",
+         "brawl" : "E",
+         "faith" : "D",
+         "flying" : "E",
+         "heavyArmor" : "E",
+         "lance" : "E",
+         "reason" : "E+",
+         "riding" : "E",
+         "sword" : "D"
+      },
       "baseStats" : {
          "baseCha" : "8",
          "baseDef" : "5",
@@ -1462,6 +3513,45 @@
          "baseStr" : "10"
       },
       "birthday" : "8/12",
+      "boonsBanesBudding" : {
+         "authority" : "Boon",
+         "axe" : "Bane",
+         "bow" : "None",
+         "brawl" : "None",
+         "budding" : "Bow",
+         "buddingTalent" : "Deadeye",
+         "faith" : "Boon",
+         "flying" : "Bane",
+         "heavyArmor" : "None",
+         "lance" : "Bane",
+         "reason" : "Boon",
+         "riding" : "Bane",
+         "sword" : "Boon"
+      },
+      "defaultClasses" : {
+         "beginnerClass" : "Myrmidon",
+         "intermediateClass" : "Thief",
+         "startingClass" : "Commoner"
+      },
+      "dependentAbilities" : {
+         "C" : "Battalion Vantage",
+         "C+" : "Model Leader"
+      },
+      "dependentCombatArts" : {
+         "A" : [
+            "Finesse Blade"
+         ],
+         "C+" : [
+            "Windsweep"
+         ]
+      },
+      "faithSpells" : {
+         "A" : "Aura",
+         "B" : "Silence",
+         "C" : "Recover",
+         "D" : "Heal",
+         "D+" : "Nosferatu"
+      },
       "firstCrest" : "Major Crest of Aubin",
       "fullName" : "Yuri Leclerc",
       "growthRates" : {
@@ -1477,6 +3567,12 @@
       },
       "house" : "Ashen Wolves",
       "name" : "Yuri",
+      "reasonSpells" : {
+         "A" : "Excalibur",
+         "B" : "Sagittae",
+         "C" : "Cutting Gale",
+         "D" : "Wind"
+      },
       "secondCrest" : "None"
    },
    {
@@ -1490,6 +3586,19 @@
             "rel" : "self"
          }
       },
+      "baseSkillLevels" : {
+         "authority" : "E+",
+         "axe" : "D",
+         "bow" : "E",
+         "brawl" : "D+",
+         "faith" : "E",
+         "flying" : "E",
+         "heavyArmor" : "E",
+         "lance" : "E",
+         "reason" : "E",
+         "riding" : "E",
+         "sword" : "E+"
+      },
       "baseStats" : {
          "baseCha" : "4",
          "baseDef" : "7",
@@ -1502,6 +3611,47 @@
          "baseStr" : "11"
       },
       "birthday" : "7/9",
+      "boonsBanesBudding" : {
+         "authority" : "None",
+         "axe" : "Boon",
+         "bow" : "Bane",
+         "brawl" : "Boon",
+         "budding" : "Reason",
+         "buddingTalent" : "Black Magic Crit +10",
+         "faith" : "Boon",
+         "flying" : "Bane",
+         "heavyArmor" : "Boon",
+         "lance" : "Bane",
+         "reason" : "None",
+         "riding" : "None",
+         "sword" : "Boon"
+      },
+      "defaultClasses" : {
+         "beginnerClass" : "Fighter",
+         "intermediateClass" : "Brawler",
+         "startingClass" : "Noble"
+      },
+      "dependentAbilities" : {
+         "B" : "Battalion Desperation",
+         "D" : "Rally Strength"
+      },
+      "dependentCombatArts" : {
+         "A" : [
+            "Armored Strike",
+            "Mighty Blow"
+         ],
+         "C+" : [
+            "Bane of Monsters",
+            "Diamond Axe",
+            "Draining Blow"
+         ]
+      },
+      "faithSpells" : {
+         "A" : "Restore",
+         "B" : "Seraphim",
+         "D" : "Heal",
+         "D+" : "Nosferatu"
+      },
       "firstCrest" : "Major Crest of Chevalier",
       "fullName" : "Balthus von Albrecht",
       "growthRates" : {
@@ -1517,6 +3667,11 @@
       },
       "house" : "Ashen Wolves",
       "name" : "Balthus",
+      "reasonSpells" : {
+         "A" : "Ragnarok",
+         "C" : "Bolganone",
+         "D" : "Fire"
+      },
       "secondCrest" : "None"
    },
    {
@@ -1530,6 +3685,19 @@
             "rel" : "self"
          }
       },
+      "baseSkillLevels" : {
+         "authority" : "E",
+         "axe" : "E",
+         "bow" : "E",
+         "brawl" : "E",
+         "faith" : "E",
+         "flying" : "D",
+         "heavyArmor" : "E",
+         "lance" : "E",
+         "reason" : "D",
+         "riding" : "E",
+         "sword" : "E+"
+      },
       "baseStats" : {
          "baseCha" : "6",
          "baseDef" : "3",
@@ -1542,6 +3710,45 @@
          "baseStr" : "5"
       },
       "birthday" : "3/20",
+      "boonsBanesBudding" : {
+         "authority" : "Boon",
+         "axe" : "Bane",
+         "bow" : "None",
+         "brawl" : "None",
+         "budding" : "Brawl",
+         "buddingTalent" : "Mystic Blow",
+         "faith" : "None",
+         "flying" : "Boon",
+         "heavyArmor" : "Bane",
+         "lance" : "None",
+         "reason" : "Boon",
+         "riding" : "None",
+         "sword" : "Boon"
+      },
+      "defaultClasses" : {
+         "beginnerClass" : "Monk",
+         "intermediateClass" : "Mage",
+         "startingClass" : "Noble"
+      },
+      "dependentAbilities" : {
+         "C" : "Rally Resistance",
+         "D" : "Rally Magic"
+      },
+      "dependentCombatArts" : {
+         "A" : [
+            "Hexblade"
+         ],
+         "C+" : [
+            "Soulblade"
+         ]
+      },
+      "faithSpells" : {
+         "A" : "Abraxas",
+         "B" : "Rescue",
+         "C" : "Ward",
+         "D" : "Heal",
+         "D+" : "Nosferatu"
+      },
       "firstCrest" : "Major Crest of Noa",
       "fullName" : "Constance von Nuvelle",
       "growthRates" : {
@@ -1557,6 +3764,13 @@
       },
       "house" : "Ashen Wolves",
       "name" : "Constance",
+      "reasonSpells" : {
+         "A" : "Bolting",
+         "A+" : "Agnea's Arrow",
+         "B" : "Fimbulvetr",
+         "C" : "Sagittae",
+         "D" : "Fire"
+      },
       "secondCrest" : "None"
    },
    {
@@ -1570,6 +3784,19 @@
             "rel" : "self"
          }
       },
+      "baseSkillLevels" : {
+         "authority" : "E",
+         "axe" : "E",
+         "bow" : "E",
+         "brawl" : "E",
+         "faith" : "E",
+         "flying" : "E",
+         "heavyArmor" : "E",
+         "lance" : "E",
+         "reason" : "D",
+         "riding" : "D",
+         "sword" : "E+"
+      },
       "baseStats" : {
          "baseCha" : "4",
          "baseDef" : "4",
@@ -1582,6 +3809,38 @@
          "baseStr" : "6"
       },
       "birthday" : "1/15",
+      "boonsBanesBudding" : {
+         "authority" : "Bane",
+         "axe" : "None",
+         "bow" : "None",
+         "brawl" : "Bane",
+         "budding" : "Axe",
+         "buddingTalent" : "Exhaustive Strike",
+         "faith" : "None",
+         "flying" : "Boon",
+         "heavyArmor" : "Bane",
+         "lance" : "None",
+         "reason" : "Boon",
+         "riding" : "Boon",
+         "sword" : "None"
+      },
+      "defaultClasses" : {
+         "beginnerClass" : "Monk",
+         "intermediateClass" : "Mage",
+         "startingClass" : "Commoner"
+      },
+      "dependentAbilities" : {
+         "C" : "Battalion Wrath",
+         "D" : "Rally Dexterity"
+      },
+      "dependentCombatArts" : {},
+      "faithSpells" : {
+         "A" : "Warp",
+         "B" : "Seraphim",
+         "C" : "Physic",
+         "D" : "Heal",
+         "D+" : "Nosferatu"
+      },
       "firstCrest" : "Major Crest of Timotheos",
       "fullName" : "Hapi",
       "growthRates" : {
@@ -1597,6 +3856,13 @@
       },
       "house" : "Ashen Wolves",
       "name" : "Hapi",
+      "reasonSpells" : {
+         "A" : "Hades",
+         "B" : "Death",
+         "C" : "Banshee",
+         "D" : "Miasma",
+         "D+" : "Swarm"
+      },
       "secondCrest" : "None"
    }
 ]

@@ -1,0 +1,101 @@
+{
+   "_links" : {
+      "all" : {
+         "href" : "http://localhost:8080/unit",
+         "rel" : "unit"
+      },
+      "self" : {
+         "href" : "http://localhost:8080/unit/1",
+         "rel" : "self"
+      }
+   },
+   "baseSkillLevels" : {
+      "authority" : "D",
+      "axe" : "E",
+      "bow" : "D",
+      "brawl" : "E",
+      "faith" : "E",
+      "flying" : "E+",
+      "heavyArmor" : "E",
+      "lance" : "E",
+      "reason" : "E",
+      "riding" : "E+",
+      "sword" : "E+"
+   },
+   "baseStats" : {
+      "baseCha" : "8",
+      "baseDef" : "6",
+      "baseDex" : "8",
+      "baseHp" : "26",
+      "baseLck" : "7",
+      "baseMag" : "5",
+      "baseRes" : "4",
+      "baseSpd" : "8",
+      "baseStr" : "11"
+   },
+   "birthday" : "7/24",
+   "boonsBanesBudding" : {
+      "authority" : "Boon",
+      "axe" : "None",
+      "bow" : "Boon",
+      "brawl" : "None",
+      "budding" : "Axe",
+      "buddingTalent" : "Diamond Axe",
+      "faith" : "Bane",
+      "flying" : "Boon",
+      "heavyArmor" : "None",
+      "lance" : "Bane",
+      "reason" : "None",
+      "riding" : "None",
+      "sword" : "Boon"
+   },
+   "defaultClasses" : {
+      "beginnerClass" : "Noble",
+      "intermediateClass" : "Noble",
+      "startingClass" : "Noble"
+   },
+   "dependentAbilities" : {
+      "A" : "Battalion Wrath",
+      "C" : "Battalion Desperation",
+      "C+" : "Model Leader",
+      "S" : "Rally Charm"
+   },
+   "dependentCombatArts" : {
+      "A" : [
+         "Finesse Blade",
+         "Encloser"
+      ],
+      "C+" : [
+         "Bane of Monsters",
+         "Monster Blast"
+      ]
+   },
+   "faithSpells" : {
+      "A" : "Silence",
+      "C" : "Recover",
+      "D" : "Heal",
+      "D+" : "Nosferatu"
+   },
+   "firstCrest" : "Minor Crest of Riegan",
+   "fullName" : "Claude von Riegan",
+   "growthRates" : {
+      "growthRateCha" : "55",
+      "growthRateDef" : "30",
+      "growthRateDex" : "60",
+      "growthRateHp" : "35",
+      "growthRateLck" : "45",
+      "growthRateMag" : "25",
+      "growthRateRes" : "25",
+      "growthRateSpd" : "55",
+      "growthRateStr" : "40"
+   },
+   "house" : "Golden Deer",
+   "name" : "Claude",
+   "reasonSpells" : {
+      "A" : "Excalibur",
+      "B" : "Cutting Gale",
+      "C" : "Sagittae",
+      "D" : "Wind"
+   },
+   "secondCrest" : "None"
+}
