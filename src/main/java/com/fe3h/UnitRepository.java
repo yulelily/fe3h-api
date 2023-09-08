@@ -23,7 +23,10 @@ interface UnitRepository extends JpaRepository<Unit, Integer> {
       ON dependent_abilities.unit_id = base_skill_levels.unit_id
       LEFT JOIN dependent_combat_arts
       ON dependent_combat_arts.unit_id = dependent_abilities.unit_id
-
+      LEFT JOIN reason_spells
+      ON reason_spells.unit_id = dependent_combat_arts.unit_id
+      LEFT JOIN faith_spells
+      ON faith_spells.unit_id = reason_spells.unit_id
       """
     )
     public String[] indexAll();
@@ -46,6 +49,10 @@ interface UnitRepository extends JpaRepository<Unit, Integer> {
       ON dependent_abilities.unit_id = base_skill_levels.unit_id
       LEFT JOIN dependent_combat_arts
       ON dependent_combat_arts.unit_id = dependent_abilities.unit_id
+      LEFT JOIN reason_spells
+      ON reason_spells.unit_id = dependent_combat_arts.unit_id
+      LEFT JOIN faith_spells
+      ON faith_spells.unit_id = reason_spells.unit_id
       WHERE unit.id = :unitId
       """
     )

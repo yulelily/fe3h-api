@@ -70,6 +70,12 @@
          "Monster Blast"
       ]
    },
+   "faithSpells" : {
+      "A" : "Silence",
+      "C" : "Recover",
+      "D" : "Heal",
+      "D+" : "Nosferatu"
+   },
    "firstCrest" : "Minor Crest of Riegan",
    "fullName" : "Claude von Riegan",
    "growthRates" : {
@@ -85,5 +91,11 @@
    },
    "house" : "Golden Deer",
    "name" : "Claude",
+   "reasonSpells" : {
+      "A" : "Excalibur",
+      "B" : "Cutting Gale",
+      "C" : "Sagittae",
+      "D" : "Wind"
+   },
    "secondCrest" : "None"
 }

@@ -37,7 +37,7 @@ public class Fe3hApiService {
     _links.put("all", linkTo(methodOn(Fe3hApiController.class).indexAll()).withRel("unit"));
     response.put("_links", _links);
 
-    Map<String, Object> baseStatsArr = new HashMap<>();
+    Map<String, String> baseStatsArr = new HashMap<>();
     baseStatsArr.put("baseHp", parsedQuery[9]);
     baseStatsArr.put("baseStr", parsedQuery[10]);
     baseStatsArr.put("baseMag", parsedQuery[11]);
@@ -49,7 +49,7 @@ public class Fe3hApiService {
     baseStatsArr.put("baseCha", parsedQuery[17]);
     response.put("baseStats", baseStatsArr);
 
-    Map<String, Object> growthRatesArr = new HashMap<>();
+    Map<String, String> growthRatesArr = new HashMap<>();
     growthRatesArr.put("growthRateHp", parsedQuery[20]);
     growthRatesArr.put("growthRateStr", parsedQuery[21]);
     growthRatesArr.put("growthRateMag", parsedQuery[22]);
@@ -61,13 +61,13 @@ public class Fe3hApiService {
     growthRatesArr.put("growthRateCha", parsedQuery[28]);
     response.put("growthRates", growthRatesArr);
 
-    Map<String, Object> defaultClassesArr = new HashMap<>();
+    Map<String, String> defaultClassesArr = new HashMap<>();
     defaultClassesArr.put("startingClass", parsedQuery[31]);
     defaultClassesArr.put("beginnerClass", parsedQuery[32]);
     defaultClassesArr.put("intermediateClass", parsedQuery[33]);
     response.put("defaultClasses", defaultClassesArr);
     
-    Map<String, Object> boonsBanesBuddingArr = new HashMap<>();
+    Map<String, String> boonsBanesBuddingArr = new HashMap<>();
     boonsBanesBuddingArr.put("sword", parsedQuery[36]);
     boonsBanesBuddingArr.put("lance", parsedQuery[37]);
     boonsBanesBuddingArr.put("axe", parsedQuery[38]);
@@ -83,7 +83,7 @@ public class Fe3hApiService {
     boonsBanesBuddingArr.put("buddingTalent", parsedQuery[48]);
     response.put("boonsBanesBudding", boonsBanesBuddingArr);
 
-    Map<String, Object> baseSkillLevelsArr = new HashMap<>();
+    Map<String, String> baseSkillLevelsArr = new HashMap<>();
     baseSkillLevelsArr.put("sword", parsedQuery[51]);
     baseSkillLevelsArr.put("lance", parsedQuery[52]);
     baseSkillLevelsArr.put("axe", parsedQuery[53]);
@@ -97,7 +97,7 @@ public class Fe3hApiService {
     baseSkillLevelsArr.put("flying", parsedQuery[61]);
     response.put("baseSkillLevels", baseSkillLevelsArr);
 
-    Map<String, Object> dependentAbilitiesArr = new HashMap<>();
+    Map<String, String> dependentAbilitiesArr = new HashMap<>();
     for (int i = 0; i < 5; i++) {
       String ability = parsedQuery[64 + (2 * i)];
       if (ability.equals("NA")) {
@@ -124,6 +124,28 @@ public class Fe3hApiService {
       }
     }
     response.put("dependentCombatArts", dependentCombatArtsArr);
+
+    Map<String, String> reasonSpellsArr = new HashMap<>();
+    for (int i = 0; i < 5; i++) {
+      String rSpell = parsedQuery[88 + (2 * i)];
+      if (rSpell.equals("NA")) {
+        break;
+      }
+      String req = parsedQuery[89 + (2 * i)];
+      reasonSpellsArr.put(req, rSpell);
+    }
+    response.put("reasonSpells", reasonSpellsArr);
+
+    Map<String, String> faithSpellsArr = new HashMap<>();
+    for (int i = 0; i < 5; i++) {
+      String fSpell = parsedQuery[100 + (2 * i)];
+      if (fSpell.equals("NA")) {
+        break;
+      }
+      String req = parsedQuery[101 + (2 * i)];
+      faithSpellsArr.put(req, fSpell);
+    }
+    response.put("faithSpells", faithSpellsArr);
 
     return response;
   }
