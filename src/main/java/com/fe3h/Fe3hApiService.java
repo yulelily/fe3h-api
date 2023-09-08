@@ -60,6 +60,12 @@ public class Fe3hApiService {
     growthRatesArr.put("growthRateRes", parsedQuery[27]);
     growthRatesArr.put("growthRateCha", parsedQuery[28]);
     response.put("growthRates", growthRatesArr);
+
+    Map<String, Object> defaultClassesArr = new HashMap<>();
+    defaultClassesArr.put("startingClass", parsedQuery[31]);
+    defaultClassesArr.put("beginnerClass", parsedQuery[32]);
+    defaultClassesArr.put("intermediateClass", parsedQuery[33]);
+    response.put("defaultClasses", defaultClassesArr);
     
     return response;
   }

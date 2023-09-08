@@ -39,13 +39,13 @@ ON DUPLICATE KEY UPDATE id=VALUES(id), unit_id=VALUES(unit_id),
 budding_talent=VALUES(budding_talent);
 
 -- @block
+SELECT * FROM default_classes;
 SELECT * FROM boons_banes;
 SELECT * FROM base_skill_levels;
 SELECT * FROM dependent_abilities;
 SELECT * FROM dependent_combat_arts;
 SELECT * FROM reason_spells;
 SELECT * FROM faith_spells;
-SELECT * FROM default_classes;
 
 -- @block
 SELECT * FROM unit

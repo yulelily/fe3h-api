@@ -13,6 +13,8 @@ interface UnitRepository extends JpaRepository<Unit, Integer> {
         ON base_stats.unit_id = unit.id 
           LEFT JOIN unit_growth_rates 
           ON unit_growth_rates.unit_id = base_stats.unit_id
+            LEFT JOIN default_classes
+            ON default_classes.unit_id = unit_growth_rates.unit_id
         """
     )
     public String[] indexAll();
@@ -25,6 +27,8 @@ interface UnitRepository extends JpaRepository<Unit, Integer> {
       ON base_stats.unit_id = unit.id 
         LEFT JOIN unit_growth_rates 
         ON unit_growth_rates.unit_id = base_stats.unit_id 
+            LEFT JOIN default_classes
+            ON default_classes.unit_id = unit_growth_rates.unit_id
         WHERE unit.id = :unitId
       """
     )
