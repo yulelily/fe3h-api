@@ -97,6 +97,17 @@ public class Fe3hApiService {
     baseSkillLevelsArr.put("flying", parsedQuery[61]);
     response.put("baseSkillLevels", baseSkillLevelsArr);
 
+    Map<String, Object> dependentAbilitiesArr = new HashMap<>();
+    for (int i = 0; i < 5; i++) {
+      String ability = parsedQuery[64 + (2 * i)];
+      if (ability.equals("NA")) {
+        break;
+      }
+      String req = parsedQuery[65 + (2 * i)];
+      dependentAbilitiesArr.put(req, ability);
+    }
+    response.put("dependentAbilities", dependentAbilitiesArr);
+
     return response;
   }
 }

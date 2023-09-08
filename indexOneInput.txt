@@ -54,6 +54,12 @@
       "intermediateClass" : "Noble",
       "startingClass" : "Noble"
    },
+   "dependentAbilities" : {
+      "A" : "Battalion Wrath",
+      "C" : "Battalion Desperation",
+      "C+" : "Model Leader",
+      "S" : "Rally Charm"
+   },
    "firstCrest" : "Minor Crest of Riegan",
    "fullName" : "Claude von Riegan",
    "growthRates" : {

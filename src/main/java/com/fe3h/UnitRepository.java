@@ -19,6 +19,8 @@ interface UnitRepository extends JpaRepository<Unit, Integer> {
       ON boons_banes.unit_id = default_classes.unit_id
       LEFT JOIN base_skill_levels
       ON base_skill_levels.unit_id = boons_banes.unit_id
+      LEFT JOIN dependent_abilities
+      ON dependent_abilities.unit_id = base_skill_levels.unit_id
 
       """
     )
@@ -38,6 +40,8 @@ interface UnitRepository extends JpaRepository<Unit, Integer> {
       ON boons_banes.unit_id = default_classes.unit_id
       LEFT JOIN base_skill_levels
       ON base_skill_levels.unit_id = boons_banes.unit_id
+      LEFT JOIN dependent_abilities
+      ON dependent_abilities.unit_id = base_skill_levels.unit_id
       WHERE unit.id = :unitId
       """
     )
