@@ -11,12 +11,15 @@ interface UnitRepository extends JpaRepository<Unit, Integer> {
       SELECT * FROM unit 
       LEFT JOIN base_stats 
       ON base_stats.unit_id = unit.id 
-        LEFT JOIN unit_growth_rates 
-        ON unit_growth_rates.unit_id = base_stats.unit_id
-          LEFT JOIN default_classes
-          ON default_classes.unit_id = unit_growth_rates.unit_id
-            LEFT JOIN boons_banes
-            ON boons_banes.unit_id = default_classes.unit_id
+      LEFT JOIN unit_growth_rates 
+      ON unit_growth_rates.unit_id = base_stats.unit_id
+      LEFT JOIN default_classes
+      ON default_classes.unit_id = unit_growth_rates.unit_id
+      LEFT JOIN boons_banes
+      ON boons_banes.unit_id = default_classes.unit_id
+      LEFT JOIN base_skill_levels
+      ON base_skill_levels.unit_id = boons_banes.unit_id
+
       """
     )
     public String[] indexAll();
@@ -27,13 +30,15 @@ interface UnitRepository extends JpaRepository<Unit, Integer> {
       SELECT * FROM unit 
       LEFT JOIN base_stats 
       ON base_stats.unit_id = unit.id 
-        LEFT JOIN unit_growth_rates 
-        ON unit_growth_rates.unit_id = base_stats.unit_id 
-          LEFT JOIN default_classes
-          ON default_classes.unit_id = unit_growth_rates.unit_id
-            LEFT JOIN boons_banes
-            ON boons_banes.unit_id = default_classes.unit_id
-        WHERE unit.id = :unitId
+      LEFT JOIN unit_growth_rates 
+      ON unit_growth_rates.unit_id = base_stats.unit_id 
+      LEFT JOIN default_classes
+      ON default_classes.unit_id = unit_growth_rates.unit_id
+      LEFT JOIN boons_banes
+      ON boons_banes.unit_id = default_classes.unit_id
+      LEFT JOIN base_skill_levels
+      ON base_skill_levels.unit_id = boons_banes.unit_id
+      WHERE unit.id = :unitId
       """
     )
     public String indexOne(@Param("unitId") int unitId);

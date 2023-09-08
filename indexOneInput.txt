@@ -9,6 +9,19 @@
          "rel" : "self"
       }
    },
+   "baseSkillLevels" : {
+      "authority" : "D",
+      "axe" : "E",
+      "bow" : "D",
+      "brawl" : "E",
+      "faith" : "E",
+      "flying" : "E+",
+      "heavyArmor" : "E",
+      "lance" : "E",
+      "reason" : "E",
+      "riding" : "E+",
+      "sword" : "E+"
+   },
    "baseStats" : {
       "baseCha" : "8",
       "baseDef" : "6",

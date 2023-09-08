@@ -83,6 +83,20 @@ public class Fe3hApiService {
     boonsBanesBuddingArr.put("buddingTalent", parsedQuery[48]);
     response.put("boonsBanesBudding", boonsBanesBuddingArr);
 
+    Map<String, Object> baseSkillLevelsArr = new HashMap<>();
+    baseSkillLevelsArr.put("sword", parsedQuery[51]);
+    baseSkillLevelsArr.put("lance", parsedQuery[52]);
+    baseSkillLevelsArr.put("axe", parsedQuery[53]);
+    baseSkillLevelsArr.put("bow", parsedQuery[54]);
+    baseSkillLevelsArr.put("brawl", parsedQuery[55]);
+    baseSkillLevelsArr.put("reason", parsedQuery[56]);
+    baseSkillLevelsArr.put("faith", parsedQuery[57]);
+    baseSkillLevelsArr.put("authority", parsedQuery[58]);
+    baseSkillLevelsArr.put("heavyArmor", parsedQuery[59]);
+    baseSkillLevelsArr.put("riding", parsedQuery[60]);
+    baseSkillLevelsArr.put("flying", parsedQuery[61]);
+    response.put("baseSkillLevels", baseSkillLevelsArr);
+
     return response;
   }
 }
