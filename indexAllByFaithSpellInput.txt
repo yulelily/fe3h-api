@@ -1,0 +1,370 @@
+[
+   {
+      "_links" : {
+         "all" : {
+            "href" : "http://localhost:8080/unit",
+            "rel" : "unit"
+         },
+         "self" : {
+            "href" : "http://localhost:8080/unit/6",
+            "rel" : "self"
+         }
+      },
+      "baseSkillLevels" : {
+         "authority" : "E+",
+         "axe" : "E",
+         "bow" : "E",
+         "brawl" : "E",
+         "faith" : "E+",
+         "flying" : "E",
+         "heavyArmor" : "E",
+         "lance" : "E",
+         "reason" : "D",
+         "riding" : "E",
+         "sword" : "E"
+      },
+      "baseStats" : {
+         "baseCha" : "5",
+         "baseDef" : "3",
+         "baseDex" : "7",
+         "baseHp" : "22",
+         "baseLck" : "4",
+         "baseMag" : "11",
+         "baseRes" : "4",
+         "baseSpd" : "7",
+         "baseStr" : "4"
+      },
+      "birthday" : "2/28",
+      "boonsBanesBudding" : {
+         "authority" : "Boon",
+         "axe" : "Bane",
+         "bow" : "None",
+         "brawl" : "None",
+         "budding" : "Sword",
+         "buddingTalent" : "Soulblade",
+         "faith" : "Boon",
+         "flying" : "None",
+         "heavyArmor" : "Bane",
+         "lance" : "Bane",
+         "reason" : "Boon",
+         "riding" : "None",
+         "sword" : "Bane"
+      },
+      "defaultClasses" : {
+         "beginnerClass" : "Monk",
+         "intermediateClass" : "Mage",
+         "startingClass" : "Noble"
+      },
+      "dependentAbilities" : {
+         "C" : "Battalion Desperation"
+      },
+      "dependentCombatArts" : {},
+      "faithSpells" : {
+         "A" : "Abraxas",
+         "B" : "Warp",
+         "C" : "Seraphim",
+         "D" : "Heal",
+         "D+" : "Nosferatu"
+      },
+      "firstCrest" : "Minor Crest of Charon",
+      "fullName" : "Lysithea von Ordelia",
+      "growthRates" : {
+         "growthRateCha" : "25",
+         "growthRateDef" : "10",
+         "growthRateDex" : "60",
+         "growthRateHp" : "20",
+         "growthRateLck" : "15",
+         "growthRateMag" : "60",
+         "growthRateRes" : "25",
+         "growthRateSpd" : "50",
+         "growthRateStr" : "15"
+      },
+      "house" : "Golden Deer",
+      "name" : "Lysithea",
+      "reasonSpells" : {
+         "A" : "Hades",
+         "B" : "Dark Spikes",
+         "C" : "Luna",
+         "D" : "Miasma",
+         "D+" : "Swarm"
+      },
+      "secondCrest" : "Major Crest of Gloucester"
+   },
+   {
+      "_links" : {
+         "all" : {
+            "href" : "http://localhost:8080/unit",
+            "rel" : "unit"
+         },
+         "self" : {
+            "href" : "http://localhost:8080/unit/20",
+            "rel" : "self"
+         }
+      },
+      "baseSkillLevels" : {
+         "authority" : "E",
+         "axe" : "E",
+         "bow" : "E",
+         "brawl" : "E",
+         "faith" : "D+",
+         "flying" : "E",
+         "heavyArmor" : "E",
+         "lance" : "E",
+         "reason" : "E+",
+         "riding" : "E",
+         "sword" : "E"
+      },
+      "baseStats" : {
+         "baseCha" : "3",
+         "baseDef" : "5",
+         "baseDex" : "6",
+         "baseHp" : "24",
+         "baseLck" : "7",
+         "baseMag" : "10",
+         "baseRes" : "9",
+         "baseSpd" : "5",
+         "baseStr" : "5"
+      },
+      "birthday" : "11/7",
+      "boonsBanesBudding" : {
+         "authority" : "None",
+         "axe" : "Bane",
+         "bow" : "None",
+         "brawl" : "Bane",
+         "budding" : "None",
+         "buddingTalent" : "None",
+         "faith" : "Boon",
+         "flying" : "None",
+         "heavyArmor" : "None",
+         "lance" : "None",
+         "reason" : "Boon",
+         "riding" : "None",
+         "sword" : "None"
+      },
+      "defaultClasses" : {
+         "beginnerClass" : "Monk",
+         "intermediateClass" : "Priest",
+         "startingClass" : "Noble"
+      },
+      "dependentAbilities" : {
+         "C" : "Battalion Renewal"
+      },
+      "dependentCombatArts" : {},
+      "faithSpells" : {
+         "A" : "Warp",
+         "B" : "Restore",
+         "C" : "Physic",
+         "D" : "Heal",
+         "D+" : "Nosferatu"
+      },
+      "firstCrest" : "Minor Crest of Cethleann",
+      "fullName" : "Linhardt von Hevring",
+      "growthRates" : {
+         "growthRateCha" : "20",
+         "growthRateDef" : "30",
+         "growthRateDex" : "40",
+         "growthRateHp" : "30",
+         "growthRateLck" : "45",
+         "growthRateMag" : "45",
+         "growthRateRes" : "45",
+         "growthRateSpd" : "40",
+         "growthRateStr" : "30"
+      },
+      "house" : "Black Eagles",
+      "name" : "Linhardt",
+      "reasonSpells" : {
+         "A" : "Excalibur",
+         "B" : "Bolganone",
+         "C" : "Cutting Gale",
+         "D" : "Wind",
+         "D+" : "Fire"
+      },
+      "secondCrest" : "None"
+   },
+   {
+      "_links" : {
+         "all" : {
+            "href" : "http://localhost:8080/unit",
+            "rel" : "unit"
+         },
+         "self" : {
+            "href" : "http://localhost:8080/unit/30",
+            "rel" : "self"
+         }
+      },
+      "baseSkillLevels" : {
+         "authority" : "E",
+         "axe" : "E",
+         "bow" : "E",
+         "brawl" : "E",
+         "faith" : "C",
+         "flying" : "D",
+         "heavyArmor" : "E",
+         "lance" : "E",
+         "reason" : "E",
+         "riding" : "E",
+         "sword" : "D"
+      },
+      "baseStats" : {
+         "baseCha" : "7",
+         "baseDef" : "5",
+         "baseDex" : "6",
+         "baseHp" : "26",
+         "baseLck" : "6",
+         "baseMag" : "8",
+         "baseRes" : "4",
+         "baseSpd" : "8",
+         "baseStr" : "10"
+      },
+      "birthday" : "8/3",
+      "boonsBanesBudding" : {
+         "authority" : "None",
+         "axe" : "None",
+         "bow" : "None",
+         "brawl" : "None",
+         "budding" : "None",
+         "buddingTalent" : "None",
+         "faith" : "Boon",
+         "flying" : "Boon",
+         "heavyArmor" : "Bane",
+         "lance" : "None",
+         "reason" : "Bane",
+         "riding" : "None",
+         "sword" : "Boon"
+      },
+      "defaultClasses" : {
+         "beginnerClass" : "Priest",
+         "intermediateClass" : "Priest",
+         "startingClass" : "Priest"
+      },
+      "dependentAbilities" : {
+         "C" : "Battalion Renewal",
+         "D" : "Rally Charm"
+      },
+      "dependentCombatArts" : {
+         "C+" : [
+            "Hexblade"
+         ]
+      },
+      "faithSpells" : {
+         "A" : "Warp",
+         "B" : "Silence",
+         "C" : "Ward",
+         "D" : "Heal",
+         "D+" : "Nosferatu"
+      },
+      "firstCrest" : "None",
+      "fullName" : "Manuela Casagranda",
+      "growthRates" : {
+         "growthRateCha" : "50",
+         "growthRateDef" : "30",
+         "growthRateDex" : "40",
+         "growthRateHp" : "50",
+         "growthRateLck" : "35",
+         "growthRateMag" : "35",
+         "growthRateRes" : "25",
+         "growthRateSpd" : "60",
+         "growthRateStr" : "35"
+      },
+      "house" : "Church of Seiros",
+      "name" : "Manuela",
+      "reasonSpells" : {
+         "A" : "Bolting",
+         "C" : "Bolganone",
+         "D" : "Thunder"
+      },
+      "secondCrest" : "None"
+   },
+   {
+      "_links" : {
+         "all" : {
+            "href" : "http://localhost:8080/unit",
+            "rel" : "unit"
+         },
+         "self" : {
+            "href" : "http://localhost:8080/unit/40",
+            "rel" : "self"
+         }
+      },
+      "baseSkillLevels" : {
+         "authority" : "E",
+         "axe" : "E",
+         "bow" : "E",
+         "brawl" : "E",
+         "faith" : "E",
+         "flying" : "E",
+         "heavyArmor" : "E",
+         "lance" : "E",
+         "reason" : "D",
+         "riding" : "D",
+         "sword" : "E+"
+      },
+      "baseStats" : {
+         "baseCha" : "4",
+         "baseDef" : "4",
+         "baseDex" : "8",
+         "baseHp" : "26",
+         "baseLck" : "4",
+         "baseMag" : "11",
+         "baseRes" : "7",
+         "baseSpd" : "6",
+         "baseStr" : "6"
+      },
+      "birthday" : "1/15",
+      "boonsBanesBudding" : {
+         "authority" : "Bane",
+         "axe" : "None",
+         "bow" : "None",
+         "brawl" : "Bane",
+         "budding" : "Axe",
+         "buddingTalent" : "Exhaustive Strike",
+         "faith" : "None",
+         "flying" : "Boon",
+         "heavyArmor" : "Bane",
+         "lance" : "None",
+         "reason" : "Boon",
+         "riding" : "Boon",
+         "sword" : "None"
+      },
+      "defaultClasses" : {
+         "beginnerClass" : "Monk",
+         "intermediateClass" : "Mage",
+         "startingClass" : "Commoner"
+      },
+      "dependentAbilities" : {
+         "C" : "Battalion Wrath",
+         "D" : "Rally Dexterity"
+      },
+      "dependentCombatArts" : {},
+      "faithSpells" : {
+         "A" : "Warp",
+         "B" : "Seraphim",
+         "C" : "Physic",
+         "D" : "Heal",
+         "D+" : "Nosferatu"
+      },
+      "firstCrest" : "Major Crest of Timotheos",
+      "fullName" : "Hapi",
+      "growthRates" : {
+         "growthRateCha" : "25",
+         "growthRateDef" : "15",
+         "growthRateDex" : "45",
+         "growthRateHp" : "35",
+         "growthRateLck" : "20",
+         "growthRateMag" : "45",
+         "growthRateRes" : "45",
+         "growthRateSpd" : "40",
+         "growthRateStr" : "35"
+      },
+      "house" : "Ashen Wolves",
+      "name" : "Hapi",
+      "reasonSpells" : {
+         "A" : "Hades",
+         "B" : "Death",
+         "C" : "Banshee",
+         "D" : "Miasma",
+         "D+" : "Swarm"
+      },
+      "secondCrest" : "None"
+   }
+]

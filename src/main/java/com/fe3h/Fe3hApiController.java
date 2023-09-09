@@ -71,4 +71,16 @@ public class Fe3hApiController {
     }
     return response;
   }
+
+  @GetMapping(path="/find/faithSpell/{faithSpellName}")
+  public @ResponseBody List<Map<String, Object>>
+  indexAllByFaithSpell (@PathVariable String faithSpellName) {
+    String[] sqlQueries = unitRepository.indexAllByFaithSpell(faithSpellName);
+
+    List<Map<String, Object>> response = new ArrayList<>();
+    for (String unitId: sqlQueries) {
+      response.add(indexOneById(unitId));
+    }
+    return response;
+  }
 }

@@ -126,4 +126,18 @@ interface UnitRepository extends JpaRepository<Unit, Integer> {
         """
       )
       public String[] indexAllByReasonSpell(@Param("reasonSpellName") String reasonSpellName);
+
+    @Query(
+      nativeQuery = true,
+      value = """
+        SELECT unit_id FROM faith_spells
+        WHERE 
+          faith_spells.spell_1 = :faithSpellName
+          OR faith_spells.spell_2 = :faithSpellName
+          OR faith_spells.spell_3 = :faithSpellName
+          OR faith_spells.spell_4 = :faithSpellName
+          OR faith_spells.spell_5 = :faithSpellName
+        """
+      )
+      public String[] indexAllByFaithSpell(@Param("faithSpellName") String faithSpellName);
 }

@@ -226,11 +226,11 @@ WHERE
   budding = 'None';
 
 -- @block
-CREATE INDEX spell_1_index ON reason_spells(spell_1);
-CREATE INDEX spell_2_index ON reason_spells(spell_2);
-CREATE INDEX spell_3_index ON reason_spells(spell_3);
-CREATE INDEX spell_4_index ON reason_spells(spell_4);
-CREATE INDEX spell_5_index ON reason_spells(spell_5);
+CREATE INDEX spell_1_index ON faith_spells(spell_1);
+CREATE INDEX spell_2_index ON faith_spells(spell_2);
+CREATE INDEX spell_3_index ON faith_spells(spell_3);
+CREATE INDEX spell_4_index ON faith_spells(spell_4);
+CREATE INDEX spell_5_index ON faith_spells(spell_5);
 
 -- @block
-SHOW INDEX FROM reason_spells;
+SHOW INDEX FROM faith_spells;
