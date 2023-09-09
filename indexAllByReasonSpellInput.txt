@@ -1,0 +1,586 @@
+[
+   {
+      "_links" : {
+         "all" : {
+            "href" : "http://localhost:8080/unit",
+            "rel" : "unit"
+         },
+         "self" : {
+            "href" : "http://localhost:8080/unit/5",
+            "rel" : "self"
+         }
+      },
+      "baseSkillLevels" : {
+         "authority" : "E+",
+         "axe" : "E",
+         "bow" : "D",
+         "brawl" : "E",
+         "faith" : "E",
+         "flying" : "E",
+         "heavyArmor" : "E",
+         "lance" : "E",
+         "reason" : "E",
+         "riding" : "E",
+         "sword" : "E+"
+      },
+      "baseStats" : {
+         "baseCha" : "4",
+         "baseDef" : "4",
+         "baseDex" : "7",
+         "baseHp" : "25",
+         "baseLck" : "8",
+         "baseMag" : "5",
+         "baseRes" : "6",
+         "baseSpd" : "8",
+         "baseStr" : "8"
+      },
+      "birthday" : "3/14",
+      "boonsBanesBudding" : {
+         "authority" : "Boon",
+         "axe" : "None",
+         "bow" : "Boon",
+         "brawl" : "None",
+         "budding" : "Reason",
+         "buddingTalent" : "Seal Strength",
+         "faith" : "None",
+         "flying" : "Bane",
+         "heavyArmor" : "None",
+         "lance" : "None",
+         "reason" : "None",
+         "riding" : "None",
+         "sword" : "Boon"
+      },
+      "defaultClasses" : {
+         "beginnerClass" : "Fighter",
+         "intermediateClass" : "Archer",
+         "startingClass" : "Commoner"
+      },
+      "dependentAbilities" : {
+         "A" : "Battalion Vantage",
+         "C" : "Battalion Desperation",
+         "C+" : "Rally Dexterity",
+         "D" : "Rally Speed",
+         "S" : "Rally Strength"
+      },
+      "dependentCombatArts" : {
+         "A" : [
+            "Ward Arrow"
+         ],
+         "C+" : [
+            "Haze Slice",
+            "Break Shot"
+         ]
+      },
+      "faithSpells" : {
+         "B" : "Ward",
+         "C" : "Physic",
+         "D" : "Heal",
+         "D+" : "Nosferatu"
+      },
+      "firstCrest" : "None",
+      "fullName" : "Ignatz Victor",
+      "growthRates" : {
+         "growthRateCha" : "25",
+         "growthRateDef" : "25",
+         "growthRateDex" : "50",
+         "growthRateHp" : "35",
+         "growthRateLck" : "55",
+         "growthRateMag" : "30",
+         "growthRateRes" : "35",
+         "growthRateSpd" : "50",
+         "growthRateStr" : "35"
+      },
+      "house" : "Golden Deer",
+      "name" : "Ignatz",
+      "reasonSpells" : {
+         "A" : "Fimbulvetr",
+         "C" : "Cutting Gale",
+         "D" : "Blizzard"
+      },
+      "secondCrest" : "None"
+   },
+   {
+      "_links" : {
+         "all" : {
+            "href" : "http://localhost:8080/unit",
+            "rel" : "unit"
+         },
+         "self" : {
+            "href" : "http://localhost:8080/unit/7",
+            "rel" : "self"
+         }
+      },
+      "baseSkillLevels" : {
+         "authority" : "E",
+         "axe" : "E",
+         "bow" : "E",
+         "brawl" : "E",
+         "faith" : "D+",
+         "flying" : "E",
+         "heavyArmor" : "E",
+         "lance" : "E",
+         "reason" : "E",
+         "riding" : "E",
+         "sword" : "E+"
+      },
+      "baseStats" : {
+         "baseCha" : "7",
+         "baseDef" : "4",
+         "baseDex" : "6",
+         "baseHp" : "23",
+         "baseLck" : "6",
+         "baseMag" : "11",
+         "baseRes" : "8",
+         "baseSpd" : "7",
+         "baseStr" : "5"
+      },
+      "birthday" : "11/23",
+      "boonsBanesBudding" : {
+         "authority" : "None",
+         "axe" : "None",
+         "bow" : "None",
+         "brawl" : "Bane",
+         "budding" : "Lance",
+         "buddingTalent" : "Frozen Lance",
+         "faith" : "Boon",
+         "flying" : "Boon",
+         "heavyArmor" : "Bane",
+         "lance" : "None",
+         "reason" : "None",
+         "riding" : "Boon",
+         "sword" : "Boon"
+      },
+      "defaultClasses" : {
+         "beginnerClass" : "Monk",
+         "intermediateClass" : "Priest",
+         "startingClass" : "Noble"
+      },
+      "dependentAbilities" : {
+         "C" : "Battalion Renewal"
+      },
+      "dependentCombatArts" : {
+         "C+" : [
+            "Soulblade"
+         ]
+      },
+      "faithSpells" : {
+         "A" : "Aura",
+         "B" : "Silence",
+         "C" : "Physic",
+         "D" : "Heal",
+         "D+" : "Nosferatu"
+      },
+      "firstCrest" : "Minor Crest of the Beast",
+      "fullName" : "Marianne von Edmund",
+      "growthRates" : {
+         "growthRateCha" : "40",
+         "growthRateDef" : "15",
+         "growthRateDex" : "40",
+         "growthRateHp" : "35",
+         "growthRateLck" : "35",
+         "growthRateMag" : "50",
+         "growthRateRes" : "45",
+         "growthRateSpd" : "40",
+         "growthRateStr" : "20"
+      },
+      "house" : "Golden Deer",
+      "name" : "Marianne",
+      "reasonSpells" : {
+         "A" : "Fimbulvetr",
+         "B" : "Cutting Gale",
+         "C" : "Thoron",
+         "D" : "Blizzard"
+      },
+      "secondCrest" : "None"
+   },
+   {
+      "_links" : {
+         "all" : {
+            "href" : "http://localhost:8080/unit",
+            "rel" : "unit"
+         },
+         "self" : {
+            "href" : "http://localhost:8080/unit/16",
+            "rel" : "self"
+         }
+      },
+      "baseSkillLevels" : {
+         "authority" : "E",
+         "axe" : "E",
+         "bow" : "E",
+         "brawl" : "E",
+         "faith" : "E",
+         "flying" : "D",
+         "heavyArmor" : "E",
+         "lance" : "D",
+         "reason" : "E",
+         "riding" : "D",
+         "sword" : "E+"
+      },
+      "baseStats" : {
+         "baseCha" : "8",
+         "baseDef" : "5",
+         "baseDex" : "6",
+         "baseHp" : "27",
+         "baseLck" : "6",
+         "baseMag" : "6",
+         "baseRes" : "8",
+         "baseSpd" : "8",
+         "baseStr" : "8"
+      },
+      "birthday" : "1/4",
+      "boonsBanesBudding" : {
+         "authority" : "None",
+         "axe" : "None",
+         "bow" : "None",
+         "brawl" : "None",
+         "budding" : "None",
+         "buddingTalent" : "None",
+         "faith" : "None",
+         "flying" : "Boon",
+         "heavyArmor" : "None",
+         "lance" : "Boon",
+         "reason" : "None",
+         "riding" : "Boon",
+         "sword" : "Boon"
+      },
+      "defaultClasses" : {
+         "beginnerClass" : "Soldier",
+         "intermediateClass" : "Pegasus Knight",
+         "startingClass" : "Noble"
+      },
+      "dependentAbilities" : {
+         "C" : "Battalion Desperation",
+         "D" : "Rally Magic"
+      },
+      "dependentCombatArts" : {
+         "A" : [
+            "Hexblade",
+            "Frozen Lance"
+         ],
+         "C" : [
+            "Hit and Run"
+         ]
+      },
+      "faithSpells" : {
+         "B" : "Seraphim",
+         "C" : "Physic",
+         "D" : "Heal",
+         "D+" : "Nosferatu"
+      },
+      "firstCrest" : "Minor Crest of Daphnel",
+      "fullName" : "Ingrid Brandl Galatea",
+      "growthRates" : {
+         "growthRateCha" : "45",
+         "growthRateDef" : "30",
+         "growthRateDex" : "40",
+         "growthRateHp" : "40",
+         "growthRateLck" : "45",
+         "growthRateMag" : "35",
+         "growthRateRes" : "40",
+         "growthRateSpd" : "60",
+         "growthRateStr" : "35"
+      },
+      "house" : "Blue Lions",
+      "name" : "Ingrid",
+      "reasonSpells" : {
+         "A" : "Fimbulvetr",
+         "C" : "Thoron",
+         "D" : "Blizzard"
+      },
+      "secondCrest" : "None"
+   },
+   {
+      "_links" : {
+         "all" : {
+            "href" : "http://localhost:8080/unit",
+            "rel" : "unit"
+         },
+         "self" : {
+            "href" : "http://localhost:8080/unit/22",
+            "rel" : "self"
+         }
+      },
+      "baseSkillLevels" : {
+         "authority" : "E",
+         "axe" : "E",
+         "bow" : "D",
+         "brawl" : "E",
+         "faith" : "E",
+         "flying" : "E",
+         "heavyArmor" : "E",
+         "lance" : "E+",
+         "reason" : "E",
+         "riding" : "E",
+         "sword" : "E"
+      },
+      "baseStats" : {
+         "baseCha" : "6",
+         "baseDef" : "4",
+         "baseDex" : "7",
+         "baseHp" : "25",
+         "baseLck" : "5",
+         "baseMag" : "5",
+         "baseRes" : "2",
+         "baseSpd" : "7",
+         "baseStr" : "8"
+      },
+      "birthday" : "12/12",
+      "boonsBanesBudding" : {
+         "authority" : "None",
+         "axe" : "Bane",
+         "bow" : "Boon",
+         "brawl" : "Bane",
+         "budding" : "Riding",
+         "buddingTalent" : "Pass",
+         "faith" : "None",
+         "flying" : "None",
+         "heavyArmor" : "Bane",
+         "lance" : "Boon",
+         "reason" : "None",
+         "riding" : "None",
+         "sword" : "Bane"
+      },
+      "defaultClasses" : {
+         "beginnerClass" : "Fighter",
+         "intermediateClass" : "Archer",
+         "startingClass" : "Noble"
+      },
+      "dependentAbilities" : {
+         "C" : "Battalion Wrath"
+      },
+      "dependentCombatArts" : {
+         "A" : [
+            "Encloser"
+         ],
+         "C+" : [
+            "Vengeance",
+            "Deadeye"
+         ]
+      },
+      "faithSpells" : {
+         "A" : "Rescue",
+         "C" : "Physic",
+         "D" : "Heal",
+         "D+" : "Nosferatu"
+      },
+      "firstCrest" : "Minor Crest of Indech",
+      "fullName" : "Bernadetta von Varley",
+      "growthRates" : {
+         "growthRateCha" : "35",
+         "growthRateDef" : "20",
+         "growthRateDex" : "55",
+         "growthRateHp" : "35",
+         "growthRateLck" : "25",
+         "growthRateMag" : "20",
+         "growthRateRes" : "30",
+         "growthRateSpd" : "50",
+         "growthRateStr" : "35"
+      },
+      "house" : "Black Eagles",
+      "name" : "Bernadetta",
+      "reasonSpells" : {
+         "A" : "Fimbulvetr",
+         "C" : "Thoron",
+         "D" : "Blizzard",
+         "D+" : "Thunder"
+      },
+      "secondCrest" : "None"
+   },
+   {
+      "_links" : {
+         "all" : {
+            "href" : "http://localhost:8080/unit",
+            "rel" : "unit"
+         },
+         "self" : {
+            "href" : "http://localhost:8080/unit/34",
+            "rel" : "self"
+         }
+      },
+      "baseSkillLevels" : {
+         "authority" : "D",
+         "axe" : "E",
+         "bow" : "B",
+         "brawl" : "E",
+         "faith" : "E",
+         "flying" : "E",
+         "heavyArmor" : "E",
+         "lance" : "D+",
+         "reason" : "E",
+         "riding" : "E",
+         "sword" : "E"
+      },
+      "baseStats" : {
+         "baseCha" : "6",
+         "baseDef" : "5",
+         "baseDex" : "7",
+         "baseHp" : "26",
+         "baseLck" : "8",
+         "baseMag" : "4",
+         "baseRes" : "2",
+         "baseSpd" : "6",
+         "baseStr" : "8"
+      },
+      "birthday" : "3/27",
+      "boonsBanesBudding" : {
+         "authority" : "None",
+         "axe" : "None",
+         "bow" : "Boon",
+         "brawl" : "None",
+         "budding" : "None",
+         "buddingTalent" : "None",
+         "faith" : "Bane",
+         "flying" : "None",
+         "heavyArmor" : "None",
+         "lance" : "Boon",
+         "reason" : "None",
+         "riding" : "None",
+         "sword" : "None"
+      },
+      "defaultClasses" : {
+         "beginnerClass" : "Sniper",
+         "intermediateClass" : "Sniper",
+         "startingClass" : "Sniper"
+      },
+      "dependentAbilities" : {
+         "C" : "Battalion Desperation"
+      },
+      "dependentCombatArts" : {
+         "A" : [
+            "Lance Jab",
+            "Monster Blast"
+         ],
+         "C+" : [
+            "Hit and Run",
+            "Heavy Draw"
+         ]
+      },
+      "faithSpells" : {
+         "C" : "Physic",
+         "D" : "Heal",
+         "D+" : "Nosferatu"
+      },
+      "firstCrest" : "None",
+      "fullName" : "Shamir Nevrand",
+      "growthRates" : {
+         "growthRateCha" : "30",
+         "growthRateDef" : "20",
+         "growthRateDex" : "55",
+         "growthRateHp" : "35",
+         "growthRateLck" : "55",
+         "growthRateMag" : "20",
+         "growthRateRes" : "15",
+         "growthRateSpd" : "40",
+         "growthRateStr" : "40"
+      },
+      "house" : "Church of Seiros",
+      "name" : "Shamir",
+      "reasonSpells" : {
+         "A" : "Fimbulvetr",
+         "C" : "Sagittae",
+         "D" : "Blizzard",
+         "D+" : "Wind"
+      },
+      "secondCrest" : "None"
+   },
+   {
+      "_links" : {
+         "all" : {
+            "href" : "http://localhost:8080/unit",
+            "rel" : "unit"
+         },
+         "self" : {
+            "href" : "http://localhost:8080/unit/39",
+            "rel" : "self"
+         }
+      },
+      "baseSkillLevels" : {
+         "authority" : "E",
+         "axe" : "E",
+         "bow" : "E",
+         "brawl" : "E",
+         "faith" : "E",
+         "flying" : "D",
+         "heavyArmor" : "E",
+         "lance" : "E",
+         "reason" : "D",
+         "riding" : "E",
+         "sword" : "E+"
+      },
+      "baseStats" : {
+         "baseCha" : "6",
+         "baseDef" : "3",
+         "baseDex" : "6",
+         "baseHp" : "23",
+         "baseLck" : "4",
+         "baseMag" : "11",
+         "baseRes" : "4",
+         "baseSpd" : "6",
+         "baseStr" : "5"
+      },
+      "birthday" : "3/20",
+      "boonsBanesBudding" : {
+         "authority" : "Boon",
+         "axe" : "Bane",
+         "bow" : "None",
+         "brawl" : "None",
+         "budding" : "Brawl",
+         "buddingTalent" : "Mystic Blow",
+         "faith" : "None",
+         "flying" : "Boon",
+         "heavyArmor" : "Bane",
+         "lance" : "None",
+         "reason" : "Boon",
+         "riding" : "None",
+         "sword" : "Boon"
+      },
+      "defaultClasses" : {
+         "beginnerClass" : "Monk",
+         "intermediateClass" : "Mage",
+         "startingClass" : "Noble"
+      },
+      "dependentAbilities" : {
+         "C" : "Rally Resistance",
+         "D" : "Rally Magic"
+      },
+      "dependentCombatArts" : {
+         "A" : [
+            "Hexblade"
+         ],
+         "C+" : [
+            "Soulblade"
+         ]
+      },
+      "faithSpells" : {
+         "A" : "Abraxas",
+         "B" : "Rescue",
+         "C" : "Ward",
+         "D" : "Heal",
+         "D+" : "Nosferatu"
+      },
+      "firstCrest" : "Major Crest of Noa",
+      "fullName" : "Constance von Nuvelle",
+      "growthRates" : {
+         "growthRateCha" : "25",
+         "growthRateDef" : "15",
+         "growthRateDex" : "30",
+         "growthRateHp" : "20",
+         "growthRateLck" : "15",
+         "growthRateMag" : "60",
+         "growthRateRes" : "30",
+         "growthRateSpd" : "35",
+         "growthRateStr" : "20"
+      },
+      "house" : "Ashen Wolves",
+      "name" : "Constance",
+      "reasonSpells" : {
+         "A" : "Bolting",
+         "A+" : "Agnea's Arrow",
+         "B" : "Fimbulvetr",
+         "C" : "Sagittae",
+         "D" : "Fire"
+      },
+      "secondCrest" : "None"
+   }
+]

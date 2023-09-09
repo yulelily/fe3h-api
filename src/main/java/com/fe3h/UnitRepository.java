@@ -112,4 +112,18 @@ interface UnitRepository extends JpaRepository<Unit, Integer> {
         """
       )
       public String[] indexAllByCombatArt(@Param("combatArtName") String combatArtName);
+
+    @Query(
+      nativeQuery = true,
+      value = """
+        SELECT unit_id FROM reason_spells
+        WHERE 
+          reason_spells.spell_1 = :reasonSpellName
+          OR reason_spells.spell_2 = :reasonSpellName
+          OR reason_spells.spell_3 = :reasonSpellName
+          OR reason_spells.spell_4 = :reasonSpellName
+          OR reason_spells.spell_5 = :reasonSpellName
+        """
+      )
+      public String[] indexAllByReasonSpell(@Param("reasonSpellName") String reasonSpellName);
 }

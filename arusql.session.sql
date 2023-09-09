@@ -226,11 +226,11 @@ WHERE
   budding = 'None';
 
 -- @block
-CREATE INDEX art_1_index ON dependent_combat_arts(art_1);
-CREATE INDEX art_2_index ON dependent_combat_arts(art_2);
-CREATE INDEX art_3_index ON dependent_combat_arts(art_3);
-CREATE INDEX art_4_index ON dependent_combat_arts(art_4);
-CREATE INDEX art_5_index ON dependent_combat_arts(art_5);
+CREATE INDEX spell_1_index ON reason_spells(spell_1);
+CREATE INDEX spell_2_index ON reason_spells(spell_2);
+CREATE INDEX spell_3_index ON reason_spells(spell_3);
+CREATE INDEX spell_4_index ON reason_spells(spell_4);
+CREATE INDEX spell_5_index ON reason_spells(spell_5);
 
 -- @block
-SHOW INDEX FROM dependent_combat_arts;
+SHOW INDEX FROM reason_spells;

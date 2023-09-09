@@ -48,10 +48,22 @@ public class Fe3hApiController {
     return response;
   }
   
-  @GetMapping(path="/find/combatart/{combatArtName}")
+  @GetMapping(path="/find/combatart/{reasonSpellName}")
   public @ResponseBody List<Map<String, Object>>
   indexAllByCombatArt (@PathVariable String combatArtName) {
     String[] sqlQueries = unitRepository.indexAllByCombatArt(combatArtName);
+
+    List<Map<String, Object>> response = new ArrayList<>();
+    for (String unitId: sqlQueries) {
+      response.add(indexOneById(unitId));
+    }
+    return response;
+  }
+
+  @GetMapping(path="/find/reasonspell/{reasonSpellName}")
+  public @ResponseBody List<Map<String, Object>>
+  indexAllByReasonSpell (@PathVariable String reasonSpellName) {
+    String[] sqlQueries = unitRepository.indexAllByReasonSpell(reasonSpellName);
 
     List<Map<String, Object>> response = new ArrayList<>();
     for (String unitId: sqlQueries) {
