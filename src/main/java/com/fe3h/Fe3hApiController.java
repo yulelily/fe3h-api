@@ -47,4 +47,16 @@ public class Fe3hApiController {
     }
     return response;
   }
+  
+  @GetMapping(path="/find/combatart/{combatArtName}")
+  public @ResponseBody List<Map<String, Object>>
+  indexAllByCombatArt (@PathVariable String combatArtName) {
+    String[] sqlQueries = unitRepository.indexAllByCombatArt(combatArtName);
+
+    List<Map<String, Object>> response = new ArrayList<>();
+    for (String unitId: sqlQueries) {
+      response.add(indexOneById(unitId));
+    }
+    return response;
+  }
 }

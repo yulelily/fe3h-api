@@ -1,0 +1,195 @@
+[
+   {
+      "_links" : {
+         "all" : {
+            "href" : "http://localhost:8080/unit",
+            "rel" : "unit"
+         },
+         "self" : {
+            "href" : "http://localhost:8080/unit/8",
+            "rel" : "self"
+         }
+      },
+      "baseSkillLevels" : {
+         "authority" : "E",
+         "axe" : "E",
+         "bow" : "E+",
+         "brawl" : "E",
+         "faith" : "E",
+         "flying" : "E",
+         "heavyArmor" : "E",
+         "lance" : "D+",
+         "reason" : "E",
+         "riding" : "E+",
+         "sword" : "E"
+      },
+      "baseStats" : {
+         "baseCha" : "7",
+         "baseDef" : "7",
+         "baseDex" : "8",
+         "baseHp" : "26",
+         "baseLck" : "6",
+         "baseMag" : "5",
+         "baseRes" : "2",
+         "baseSpd" : "9",
+         "baseStr" : "9"
+      },
+      "birthday" : "8/21",
+      "boonsBanesBudding" : {
+         "authority" : "None",
+         "axe" : "None",
+         "bow" : "Boon",
+         "brawl" : "None",
+         "budding" : "None",
+         "buddingTalent" : "None",
+         "faith" : "None",
+         "flying" : "None",
+         "heavyArmor" : "None",
+         "lance" : "Boon",
+         "reason" : "None",
+         "riding" : "Boon",
+         "sword" : "None"
+      },
+      "defaultClasses" : {
+         "beginnerClass" : "Soldier",
+         "intermediateClass" : "Cavalier",
+         "startingClass" : "Commoner"
+      },
+      "dependentAbilities" : {
+         "C" : "Battalion Desperation"
+      },
+      "dependentCombatArts" : {
+         "A" : [
+            "Lance Jab",
+            "Point-Blank Volley"
+         ],
+         "C+" : [
+            "Monster Piercer",
+            "Break Shot"
+         ]
+      },
+      "faithSpells" : {
+         "B" : "Restore",
+         "C" : "Physic",
+         "D" : "Heal",
+         "D+" : "Nosferatu"
+      },
+      "firstCrest" : "None",
+      "fullName" : "Leonie Pinelli",
+      "growthRates" : {
+         "growthRateCha" : "40",
+         "growthRateDef" : "40",
+         "growthRateDex" : "55",
+         "growthRateHp" : "40",
+         "growthRateLck" : "40",
+         "growthRateMag" : "20",
+         "growthRateRes" : "15",
+         "growthRateSpd" : "60",
+         "growthRateStr" : "40"
+      },
+      "house" : "Golden Deer",
+      "name" : "Leonie",
+      "reasonSpells" : {
+         "A" : "Ragnarok",
+         "C" : "Bolganone",
+         "D" : "Fire"
+      },
+      "secondCrest" : "None"
+   },
+   {
+      "_links" : {
+         "all" : {
+            "href" : "http://localhost:8080/unit",
+            "rel" : "unit"
+         },
+         "self" : {
+            "href" : "http://localhost:8080/unit/35",
+            "rel" : "self"
+         }
+      },
+      "baseSkillLevels" : {
+         "authority" : "E",
+         "axe" : "D+",
+         "bow" : "D",
+         "brawl" : "E",
+         "faith" : "E",
+         "flying" : "E",
+         "heavyArmor" : "E",
+         "lance" : "E",
+         "reason" : "E",
+         "riding" : "E",
+         "sword" : "E"
+      },
+      "baseStats" : {
+         "baseCha" : "4",
+         "baseDef" : "5",
+         "baseDex" : "6",
+         "baseHp" : "24",
+         "baseLck" : "6",
+         "baseMag" : "4",
+         "baseRes" : "2",
+         "baseSpd" : "6",
+         "baseStr" : "7"
+      },
+      "birthday" : "10/25",
+      "boonsBanesBudding" : {
+         "authority" : "None",
+         "axe" : "Boon",
+         "bow" : "Boon",
+         "brawl" : "None",
+         "budding" : "None",
+         "buddingTalent" : "None",
+         "faith" : "Bane",
+         "flying" : "Boon",
+         "heavyArmor" : "None",
+         "lance" : "Boon",
+         "reason" : "Bane",
+         "riding" : "Boon",
+         "sword" : "None"
+      },
+      "defaultClasses" : {
+         "beginnerClass" : "Commoner",
+         "intermediateClass" : "Commoner",
+         "startingClass" : "Commoner"
+      },
+      "dependentAbilities" : {
+         "C" : "Battalion Desperation"
+      },
+      "dependentCombatArts" : {
+         "A" : [
+            "Lance Jab",
+            "Armored Strike"
+         ],
+         "C+" : [
+            "Vengeance",
+            "Monster Breaker",
+            "Point-Blank Volley"
+         ]
+      },
+      "faithSpells" : {
+         "C" : "Recover",
+         "D" : "Heal",
+         "D+" : "Nosferatu"
+      },
+      "firstCrest" : "None",
+      "fullName" : "Cyril",
+      "growthRates" : {
+         "growthRateCha" : "15",
+         "growthRateDef" : "10",
+         "growthRateDex" : "40",
+         "growthRateHp" : "35",
+         "growthRateLck" : "30",
+         "growthRateMag" : "15",
+         "growthRateRes" : "10",
+         "growthRateSpd" : "40",
+         "growthRateStr" : "20"
+      },
+      "house" : "Church of Seiros",
+      "name" : "Cyril",
+      "reasonSpells" : {
+         "C" : "Cutting Gale",
+         "D" : "Wind"
+      },
+      "secondCrest" : "None"
+   }
+]

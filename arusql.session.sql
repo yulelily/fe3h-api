@@ -226,17 +226,11 @@ WHERE
   budding = 'None';
 
 -- @block
-CREATE INDEX ability_1_index ON dependent_abilities(ability_1);
-CREATE INDEX ability_2_index ON dependent_abilities(ability_2);
-CREATE INDEX ability_3_index ON dependent_abilities(ability_3);
-CREATE INDEX ability_4_index ON dependent_abilities(ability_4);
-CREATE INDEX ability_5_index ON dependent_abilities(ability_5);
+CREATE INDEX art_1_index ON dependent_combat_arts(art_1);
+CREATE INDEX art_2_index ON dependent_combat_arts(art_2);
+CREATE INDEX art_3_index ON dependent_combat_arts(art_3);
+CREATE INDEX art_4_index ON dependent_combat_arts(art_4);
+CREATE INDEX art_5_index ON dependent_combat_arts(art_5);
 
 -- @block
-SELECT unit_id FROM dependent_abilities
-WHERE 
-  dependent_abilities.ability_1 = 'Battalion Vantage'
-  OR dependent_abilities.ability_2 = 'Battalion Vantage'
-  OR dependent_abilities.ability_3 = 'Battalion Vantage'
-  OR dependent_abilities.ability_4 = 'Battalion Vantage'
-  OR dependent_abilities.ability_5 = 'Battalion Vantage'
+SHOW INDEX FROM dependent_combat_arts;
