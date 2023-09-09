@@ -1,6 +1,7 @@
 package com.fe3h;
 
 import java.util.Map;
+import java.util.ArrayList;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -34,5 +35,16 @@ public class Fe3hApiController {
     name = name.substring(0, 1).toUpperCase() + name.substring(1).toLowerCase();
     String sqlQuery = unitRepository.indexOneByName(name);
     return fe3hApiService.stringToMap(sqlQuery);
+  }
+
+  @GetMapping(path="/find/ability/{abilityName}")
+  public @ResponseBody List<Map<String, Object>> indexAllByAbility (@PathVariable String abilityName) {
+    String[] sqlQueries = unitRepository.indexAllByAbility(abilityName);
+
+    List<Map<String, Object>> response = new ArrayList<>();
+    for (String unitId: sqlQueries) {
+      response.add(indexOneById(unitId));
+    }
+    return response;
   }
 }

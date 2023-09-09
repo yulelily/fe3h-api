@@ -84,4 +84,18 @@ interface UnitRepository extends JpaRepository<Unit, Integer> {
       """
     )
     public String indexOneByName(@Param("unitName") String unitName);
+
+    @Query(
+      nativeQuery = true,
+      value = """
+        SELECT unit_id FROM dependent_abilities
+        WHERE 
+          dependent_abilities.ability_1 = :abilityName
+          OR dependent_abilities.ability_2 = :abilityName
+          OR dependent_abilities.ability_3 = :abilityName
+          OR dependent_abilities.ability_4 = :abilityName
+          OR dependent_abilities.ability_5 = :abilityName
+        """
+      )
+      public String[] indexAllByAbility(@Param("abilityName") String abilityName);
 }
